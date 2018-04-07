@@ -35,7 +35,7 @@ class Navigation extends React.Component {
         <Navbar collapseOnSelect fixedTop>
           <Navbar.Header>
             <Navbar.Brand>
-              <Link to={routes.HOME}>Fruitica</Link>
+              <Link to={routes.HOME}>FRUITICA d.o.o</Link>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
