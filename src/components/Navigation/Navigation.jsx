@@ -1,8 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import * as routes from '../../constants/routes';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+// import { Link } from 'react-router-dom';
+// import * as routes from '../../constants/routes';
+import AppBar from 'material-ui/AppBar';
+import IconButton from 'material-ui/IconButton';
+import NavigationMenu from 'material-ui/svg-icons/navigation/menu';
+import Drawer from 'material-ui/Drawer';
+import MenuItem from 'material-ui/MenuItem';
+import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
+import IconMenu from 'material-ui/IconMenu';
+import NavigationClose from 'material-ui/svg-icons/navigation/close';
 import './Navigation.css';
 
 class Navigation extends React.Component {
@@ -10,7 +16,8 @@ class Navigation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      languageObject: props.languageObjectProp
+      languageObject: props.languageObjectProp,
+      open: true,
     }
     this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
   }
@@ -28,53 +35,50 @@ class Navigation extends React.Component {
     this.props.changeLanguageProp(language);
   }
 
+  handleToggle = () => this.setState({ open: !this.state.open });
+
+  /** if screen smaller than 900 pixel hide drawer */
+  componentWillMount() {
+    let w = window;
+    if (w.innerWidth < 900) {
+      this.setState({
+        open: false
+      })
+    }
+  }
+
   /** render */
   render() {
     return (
       <div className="Navigation">
-        <Navbar collapseOnSelect fixedTop>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <Link to={routes.HOME}>FRUITICA d.o.o</Link>
-            </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav>
-              <NavDropdown eventKey={1} title={this.state.languageObject.data.menuItems[0].title} id="basic-nav-dropdown">
-                <MenuItem eventKey={1.1}>{this.state.languageObject.data.menuItems[0].item1}</MenuItem>
-                <MenuItem eventKey={1.2}>{this.state.languageObject.data.menuItems[0].item2}</MenuItem>
-                <MenuItem eventKey={1.3}>{this.state.languageObject.data.menuItems[0].item3}</MenuItem>
-                <MenuItem eventKey={1.4}>{this.state.languageObject.data.menuItems[0].item4}</MenuItem>
-                <MenuItem eventKey={1.5}>{this.state.languageObject.data.menuItems[0].item5}</MenuItem>
-              </NavDropdown>
-              {/* <LinkContainer to={routes.ABOUT}>
-                <NavItem eventKey={1}>{this.state.languageObject.data.menuItems[0]}</NavItem>
-              </LinkContainer>
-              <LinkContainer to={routes.CONTACT}>
-                <NavItem eventKey={2}>{this.state.languageObject.data.menuItems[1]}</NavItem>
-              </LinkContainer> */}
-              <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-                <MenuItem eventKey={3.1}>Action</MenuItem>
-                <MenuItem eventKey={3.2}>Another action</MenuItem>
-                <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                <MenuItem divider />
-                <MenuItem eventKey={3.3}>Separated link</MenuItem>
-              </NavDropdown>
-            </Nav>
-            <Nav pullRight>
-              <NavItem eventKey={1} href="#" onClick={(e) => this.handleChangeLanguage(e)}>
-                {this.state.languageObject.data.languages[0]}
-              </NavItem>
-              <NavItem eventKey={2} href="#" onClick={(e) => this.handleChangeLanguage(e)}>
-                {this.state.languageObject.data.languages[1]}
-              </NavItem>
-              <NavItem eventKey={3} href="#" onClick={(e) => this.handleChangeLanguage(e)}>
-                {this.state.languageObject.data.languages[2]}
-              </NavItem>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+        <AppBar
+          className="app-bar"
+          iconElementLeft={<IconButton className="hamb-icon"><NavigationMenu onClick={this.handleToggle} /></IconButton>}
+          iconElementRight={
+            <IconMenu iconButtonElement={<IconButton><MoreVertIcon /></IconButton>}
+              targetOrigin={{ horizontal: 'right', vertical: 'top' }}
+              anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
+            >
+              <MenuItem onClick={(e) => this.handleChangeLanguage(e)} className="language" primaryText="ENG" />
+              <MenuItem onClick={(e) => this.handleChangeLanguage(e)} className="language" primaryText="HUN" />
+              <MenuItem onClick={(e) => this.handleChangeLanguage(e)} className="language" primaryText="SRB" />
+            </IconMenu>
+          }
+        />
+        <div className="mini-header">
+          Uvoz i trgovina na veliko prehrambenim proizvodima, sirovinama i aditivima.
+        </div>
+        <div>
+          <Drawer className="drawer" open={this.state.open}>
+            <div className="close-drawer-container">
+              <IconButton><NavigationClose onClick={this.handleToggle} /></IconButton>
+            </div>
+            <div className="drawer-header">Fruitica d.o.o</div>
+            <div className="drawer-mini-header"></div>
+            <MenuItem>Menu Item</MenuItem>
+            <MenuItem>Menu Item 2</MenuItem>
+          </Drawer>
+        </div>
       </div>
     );
   }

@@ -1,8 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   font-family: "Times New Roman", serif;
-}
-
-.Content {
-  padding-top: 60px;
+  font-size: 14px;
 }

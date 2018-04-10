@@ -8,8 +8,28 @@ export const dataSrb = {
         "item3": "Naša misija",
         "item4": "Politika kvaliteta",
         "item5": "Referencije",
-      }, 
-      "Kontakt"
+      },
+      {
+        "title": "Industrijski Proizvodi",
+        "item1": "Wild",
+        "item2": "Agrana",
+        "item3": "Mprofood"
+      },
+      {
+        "title": "Potrošački Proizvodi"
+      },
+      {
+        "title": "Poljoprivreda"
+      },
+      {
+        "title": "Razvojni Projekti"
+      },
+      {
+        "title": "Karijera"
+      },
+      {
+        "title": "Kontakt"
+      }
     ],
     languages: ["HUN", "SRB", "ENG"]
   }
