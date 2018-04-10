@@ -1,4 +1,4 @@
-export const dataHun = {
+export const dataEng = {
   data: {
     menuItems: [
       {

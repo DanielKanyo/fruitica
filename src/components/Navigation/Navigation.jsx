@@ -10,7 +10,7 @@ class Navigation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      languageObject:  props.languageObjectProp
+      languageObject: props.languageObjectProp
     }
     this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
   }
@@ -41,12 +41,19 @@ class Navigation extends React.Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
-              <LinkContainer to={routes.ABOUT}>
+              <NavDropdown eventKey={1} title={this.state.languageObject.data.menuItems[0].title} id="basic-nav-dropdown">
+                <MenuItem eventKey={1.1}>{this.state.languageObject.data.menuItems[0].item1}</MenuItem>
+                <MenuItem eventKey={1.2}>{this.state.languageObject.data.menuItems[0].item2}</MenuItem>
+                <MenuItem eventKey={1.3}>{this.state.languageObject.data.menuItems[0].item3}</MenuItem>
+                <MenuItem eventKey={1.4}>{this.state.languageObject.data.menuItems[0].item4}</MenuItem>
+                <MenuItem eventKey={1.5}>{this.state.languageObject.data.menuItems[0].item5}</MenuItem>
+              </NavDropdown>
+              {/* <LinkContainer to={routes.ABOUT}>
                 <NavItem eventKey={1}>{this.state.languageObject.data.menuItems[0]}</NavItem>
               </LinkContainer>
               <LinkContainer to={routes.CONTACT}>
                 <NavItem eventKey={2}>{this.state.languageObject.data.menuItems[1]}</NavItem>
-              </LinkContainer>
+              </LinkContainer> */}
               <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
                 <MenuItem eventKey={3.1}>Action</MenuItem>
                 <MenuItem eventKey={3.2}>Another action</MenuItem>
@@ -61,6 +68,9 @@ class Navigation extends React.Component {
               </NavItem>
               <NavItem eventKey={2} href="#" onClick={(e) => this.handleChangeLanguage(e)}>
                 {this.state.languageObject.data.languages[1]}
+              </NavItem>
+              <NavItem eventKey={3} href="#" onClick={(e) => this.handleChangeLanguage(e)}>
+                {this.state.languageObject.data.languages[2]}
               </NavItem>
             </Nav>
           </Navbar.Collapse>

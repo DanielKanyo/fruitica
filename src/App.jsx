@@ -13,6 +13,7 @@ import About from './components/About/About';
 
 import { dataHun } from './constants/languages/hun';
 import { dataSrb } from './constants/languages/srb';
+import { dataEng } from './constants/languages/eng';
 
 class App extends Component {
 
@@ -30,6 +31,9 @@ class App extends Component {
       case "SRB":
         this.setState({ languageObject: dataSrb });
         break;
+      case "ENG":
+        this.setState({ languageObject: dataEng });
+        break;
       default:
         this.setState({ languageObject: dataHun });
         break;
@@ -42,7 +46,7 @@ class App extends Component {
       <Router>
         <div className="App">
 
-           <Navigation
+          <Navigation
             languageObjectProp={this.state.languageObject}
             changeLanguageProp={this.changeLanguage.bind(this)}
           />
