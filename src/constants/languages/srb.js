@@ -1,36 +1,98 @@
 export const dataSrb = {
   data: {
-    menuItems: [
-      {
-        "title": "O Kompaniji",
-        "item1": "Osnovne informacije i istorijat kompanije",
-        "item2": "Naša vizija",
-        "item3": "Naša misija",
-        "item4": "Politika kvaliteta",
-        "item5": "Referencije",
+    menuItems: [{
+        title: "O Nama",
+        item1: "Fruitica",
+        item2: "Naša misija",
+        item3: "Vesti",
+        item4: "Galerija",
+        item5: "Projekti",
+        subItem1: "BGA – Kupovina nove poljoprivredne mašine"
       },
       {
-        "title": "Industrijski Proizvodi",
-        "item1": "Wild",
-        "item2": "Agrana",
-        "item3": "Mprofood"
+        title: "Proizvodi",
+        item1: "Wild",
+        item2: "Agrana",
+        item3: "Mprofood"
       },
       {
-        "title": "Potrošački Proizvodi"
+        title: "Potrošački Proizvodi"
       },
       {
-        "title": "Poljoprivreda"
+        title: "Poljoprivreda"
       },
       {
-        "title": "Razvojni Projekti"
+        title: "Razvojni Projekti"
       },
       {
-        "title": "Karijera"
+        title: "Karijera"
       },
       {
-        "title": "Kontakt"
+        title: "Kontakt"
       }
     ],
-    languages: ["HUN", "SRB", "ENG"]
+    languages: ["HUN", "SRB", "ENG"],
+    companyData: {
+      part1: `Kompanija Fruitica d.o.o. sa sedištem u Čantaviru osnovana je 1996. godine kao generalni zastupnik nemačke
+        kompanije WILD i od samog osnivanja bavi se uvozom i distribucijom industrijskih proizvoda za potrebe
+        proizvodnje prehrambenih proizvoda i bezalkoholnih napitaka (voćni i povrćni preparati, arome, ekstrakti,
+        prirodne boje, koncentrati, zaslađivači, specijalni sastojci).`,
+      part2: `2002. godine kompanija je proširila delatnost na uvoz i distribuciju gotovih proizvoda.`,
+      part3: `2008. godine su uvedene HACCP i ISO 9001 standarde.`,
+      part4: `2010. godine je počela proizvodnju primarnih poljoprivrednih proizvoda.`,
+      part5: `Za potrebe skladištenja i distribucije kompanija raspolaže savremenim centralnim skladišnim prostorom od 600
+        m², koji se nalazi u Čantaviru blizu autoputa E75.`
+    },
+    mission: {
+      part1: `Naša misija je da kontinuirano i konzistentno zadovoljavamo potrebe potrošača i poslovnih partnera, obezbedimo
+      okruženje u kome će naši zaposleni da teže uspesima u atmosferi koja podstiče njihov razvoj, da poboljšavamo
+      način života i radimo za dobrobit društva u kome živimo svakodnevni život.`,
+      part2: `Politika Kvaliteta I Bezbednosti Proizvoda`,
+      part3: `Samo zadovoljni korisnici se vraćaju ponovnoj kupovini - a redovnom kupovinom naših proizvoda osiguravaju
+      dugoročni opstanak kompanije &quot;Fruitica d.o.o.“ a samim tim i stabilnu egzistencijalnu osnovu svim zaposlenima u
+      kompaniji.`,
+      part4: `Zato zadovoljenje ne samo zahteva, već i neiskazanih očekivanja korisnika, tj. osiguranje kvaliteta i bezbednosti
+      proizvoda je prioritetna obaveza zaposlenih na svim nivoima aktivnosti u kompaniji Fruitica d.o.o.`,
+      part5: `Ostvarenje navedenih ciljeva postiže se sprovođenjem sistema menadžmenta kvalitetom i bezbednošću
+      proizvoda u skladu sa zahtevima standarda ISO 9001:2008, BRC Global Standard for Food Safety Issue 5:2008 i
+      HACCP po CAC/RCP 1-1969, Rev. 4-2003., što podrazumeva:`,
+      part6: `poštovanje svih relevantnih propisa u vezi poslovanja preduzeća;`,
+      part7: `obavezu rukovodstva da određuje takve poslovne ciljeve koji podržavaju navedeno opredeljenje, i da
+      osiguraju takvo interno okruženje, u kojem zaposleni mogu u potpunosti da učestvuju u ostvarivanju
+      poslovnih ciljeva firme;`,
+      part8: `uključivanje svih zaposlenih u ostvarenje ciljeva firme;`,
+      part9: `stalnu težnju da se otkriju i zadovolje zahtevi i očekivanja korisnika u cilju njihovog zadovoljenja;`,
+      part10: `razumevanje i upravljanje aktivnostima kao procesima;`,
+      part11: `razumevanje, uvažavanje i korišćenje međusobnih veza različitih procesa, tj. sistemskim pristup u
+      efikasnijem i efektivnijem postizanju ciljeva;`,
+      part12: `svestan i neprekidan rad na poboljšavanju kako bezbednosti i kvaliteta proizvoda, tako i ukupnih
+      performansi organizacije;`,
+      part13: `odlučivanje na osnovu činjenica;`,
+      part14: `izgradnju uzajamno korisnih, partnerskih odnosa sa isporučiocima.`,
+      part15: `Generalni direktor i osnivač kompanije: Ištvan Berenji`,
+      part16: `Čantavir, 25.09.2008.`
+    },
+    competition1: {
+      part1: `Kupovina nove poljoprivredne mašine / Bethlen Gábor Fond`,
+      part2: `Iznos ugovorene pomoći: 4 500 000 Huf.`,
+      part3: `Prezentacija sadržaja projekta: Naša firma FRUITICA d.o.o. je kompanija koja se dinamički razvija.
+      Prema sporazumu između Fruitica d.o.o. i Vlade Mađarske (Betlen Gabor Fond, kao podrška) Fruitica
+      d.o.o. je osvojila 4,5 miliona Huf. bespovratne pomoći za kupovinu produktivnih sredstava.`,
+      part4: `Pod identikacionim brojem CSV-KP- 1-2017/1- 000007 osnovni cilj je povećanje tehničke opreme
+      kompanije.`,
+      part5: `Zahvaljujući investiciji, otvoreno je novo radno mesto u kompaniji FRUITICA d.o.o. iz Čantavira.
+      Kupovinom najmodernije mašine, kompanija postaje konkurentnija i efikasnija. Projekat u velikoj
+      meri doprinosi povećanju konkurentnosti kompanije, održavanju radnih mesta, stvaranju novih
+      radnih mesta i povećanju prihoda od prodaje.`,
+      part6: `Datum stupanja na snagu prijave:`,
+      part7: `28.02.2018.`,
+      part8: `Identifikacioni broj projekta:`,
+      part9: `CSV-KP- 1-2017/1- 000007`,
+      part10: `Korisnik:`,
+      part11: `FRUITICA društvo sa ograničenom odgovornošću`,
+      part12: `24220 Čantavir`,
+      part13: `Trg Republike 7.`,
+      part14: `Republika Srbija`,
+    }
   }
 }

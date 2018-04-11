@@ -23,10 +23,10 @@
   font-family: 'Times New Roman', Times, serif !important;
 }
 
-.drawer>div {
+/* .drawer>div {
   border-right: 1px solid #dcdcdc;
   box-shadow: none !important;
-}
+} */
 
 .drawer-header {
   height: 64px;
@@ -78,9 +78,21 @@
   background: rgba(0, 0, 0, 0.1) !important;
 }
 
+.submenu a {
+  text-decoration: none;
+}
+
 .submenu span {
   line-height: 24px !important;
-  padding: 10px 16px !important;
+  padding: 12px 16px !important;
+}
+
+.menu-btn-category {
+  pointer-events: none !important;
+}
+
+.menu-btn-category>div {
+  pointer-events: auto !important;
 }
 
 .menu-btn-category span {
@@ -90,6 +102,64 @@
 
 .menu-btn-category svg {
   pointer-events: none;
+}
+
+.menu-btn-category span {
+  pointer-events: none;
+}
+
+.menu-btn-sub-category {
+  background: #f8f8f8 !important;
+}
+
+.menu-btn-sub-category:hover {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.menu-btn-sub-category>div {
+  padding: 0px 0px 0px 16px !important;
+}
+
+.menu-btn-sub-category span {
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+}
+
+.subsubmenu {
+  display: none;
+}
+
+.ssm-active {
+  display: block;
+}
+
+.menu-btn-sub-category svg {
+  pointer-events: none;
+}
+
+.subsubmenu-item {
+  padding-left: 16px !important;
+  background: #f2f2f2 !important;
+}
+
+.subsubmenu-item div {
+  padding-left: 18px !important;
+}
+
+.menu-btn-sub-category span {
+  pointer-events: none;
+}
+
+.menu-btn-sub-category {
+  pointer-events: none;
+}
+
+.menu-btn-sub-category>div {
+  pointer-events: auto;
+}
+
+.subsubmenu-item:hover {
+  background: rgba(0, 0, 0, 0.1) !important;
 }
 
 @media only screen and (max-width: 900px) {

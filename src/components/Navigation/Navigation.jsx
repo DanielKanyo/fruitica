@@ -38,6 +38,7 @@ class Navigation extends React.Component {
     }
     this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
     this.handleMenuItemToggle = this.handleMenuItemToggle.bind(this);
+    this.handleSubMenuItemToggle = this.handleSubMenuItemToggle.bind(this);
   }
 
   /** catch the language state change event, and change this component's state too */
@@ -70,12 +71,26 @@ class Navigation extends React.Component {
     let target = e.target;
     let submenu = document.getElementsByClassName("submenu" + number)[0];
     let svgElement = target.children[2];
-    
+
     if (submenu.classList.contains("sm-active")) {
       submenu.classList.remove("sm-active");
       svgElement.style.transform = "rotate(0deg)";
     } else {
       submenu.classList.add("sm-active");
+      svgElement.style.transform = "rotate(180deg)";
+    }
+  }
+
+  handleSubMenuItemToggle(e, number) {
+    let target = e.target;
+    let submenu = document.getElementsByClassName("subsubmenu" + number)[0];
+    let svgElement = target.children[2];
+
+    if (submenu.classList.contains("ssm-active")) {
+      submenu.classList.remove("ssm-active");
+      svgElement.style.transform = "rotate(0deg)";
+    } else {
+      submenu.classList.add("ssm-active");
       svgElement.style.transform = "rotate(180deg)";
     }
   }
@@ -93,7 +108,7 @@ class Navigation extends React.Component {
               targetOrigin={{ horizontal: 'right', vertical: 'top' }}
               anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
             >
-              <MenuItem onClick={(e) => this.handleChangeLanguage(e)} className="language" primaryText="ENG" />
+              {/* <MenuItem onClick={(e) => this.handleChangeLanguage(e)} className="language" primaryText="ENG" /> */}
               <MenuItem onClick={(e) => this.handleChangeLanguage(e)} className="language" primaryText="HUN" />
               <MenuItem onClick={(e) => this.handleChangeLanguage(e)} className="language" primaryText="SRB" />
             </IconMenu>
@@ -121,13 +136,45 @@ class Navigation extends React.Component {
                 labelPosition="before"
                 icon={<ExpandMoreIcon style={styles.menuIconStyle} />}
               />
-              
+
               <div className="submenu submenu1">
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">{this.state.languageObject.data.menuItems[0].item1}</MenuItem>
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">{this.state.languageObject.data.menuItems[0].item2}</MenuItem>
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">{this.state.languageObject.data.menuItems[0].item3}</MenuItem>
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">{this.state.languageObject.data.menuItems[0].item4}</MenuItem>
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">{this.state.languageObject.data.menuItems[0].item5}</MenuItem>
+                <Link to={routes.COMPANYDATA}>
+                  <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
+                    {this.state.languageObject.data.menuItems[0].item1}
+                  </MenuItem>
+                </Link>
+                <Link to={routes.MISSION}>
+                  <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
+                    {this.state.languageObject.data.menuItems[0].item2}
+                  </MenuItem>
+                </Link>
+                <Link to={routes.NEWS}>
+                  <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
+                    {this.state.languageObject.data.menuItems[0].item3}
+                  </MenuItem>
+                </Link>
+                <Link to={routes.GALLERY}>
+                  <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
+                    {this.state.languageObject.data.menuItems[0].item4}
+                  </MenuItem>
+                </Link>
+
+                <FlatButton
+                  className="menu-btn-sub-category"
+                  fullWidth={true}
+                  style={styles.flatButtonStyle}
+                  onClick={(e) => { this.handleSubMenuItemToggle(e, 1) }}
+                  label={this.state.languageObject.data.menuItems[0].item5}
+                  labelPosition="before"
+                  icon={<ExpandMoreIcon style={styles.menuIconStyle} />}
+                />
+                <div className="subsubmenu subsubmenu1">
+                  <Link to={routes.COMETITION1}>
+                    <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
+                      {this.state.languageObject.data.menuItems[0].subItem1}
+                    </MenuItem>
+                  </Link>
+                </div>
               </div>
 
               {/* second */}
@@ -142,11 +189,17 @@ class Navigation extends React.Component {
               />
 
               <div className="submenu submenu2">
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">{this.state.languageObject.data.menuItems[1].item1}</MenuItem>
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">{this.state.languageObject.data.menuItems[1].item2}</MenuItem>
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">{this.state.languageObject.data.menuItems[1].item3}</MenuItem>
+                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
+                  {this.state.languageObject.data.menuItems[1].item1}
+                </MenuItem>
+                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
+                  {this.state.languageObject.data.menuItems[1].item2}
+                </MenuItem>
+                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
+                  {this.state.languageObject.data.menuItems[1].item3}
+                </MenuItem>
               </div>
-              
+
               {/* third */}
               <MenuItem>{this.state.languageObject.data.menuItems[2].title}</MenuItem>
               <MenuItem>{this.state.languageObject.data.menuItems[3].title}</MenuItem>
