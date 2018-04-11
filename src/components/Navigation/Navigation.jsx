@@ -53,6 +53,7 @@ class Navigation extends React.Component {
       <div className="Navigation">
         <AppBar
           className="app-bar"
+          title="Fruitica d.o.o"
           iconElementLeft={<IconButton className="hamb-icon"><NavigationMenu onClick={this.handleToggle} /></IconButton>}
           iconElementRight={
             <IconMenu iconButtonElement={<IconButton><MoreVertIcon /></IconButton>}
@@ -65,18 +66,30 @@ class Navigation extends React.Component {
             </IconMenu>
           }
         />
-        <div className="mini-header">
-          Uvoz i trgovina na veliko prehrambenim proizvodima, sirovinama i aditivima.
-        </div>
+
         <div>
           <Drawer className="drawer" open={this.state.open}>
+
             <div className="close-drawer-container">
               <IconButton><NavigationClose onClick={this.handleToggle} /></IconButton>
             </div>
-            <div className="drawer-header">Fruitica d.o.o</div>
-            <div className="drawer-mini-header"></div>
-            <MenuItem>Menu Item</MenuItem>
-            <MenuItem>Menu Item 2</MenuItem>
+
+            <div className="drawer-header"></div>
+
+            <div className="drawer-menu-items">
+              <MenuItem>{this.state.languageObject.data.menuItems[0].title}</MenuItem>
+              <div className="submenu submenu1">
+                <MenuItem style={{whiteSpace: 'normal'}} className="submenu-item">{this.state.languageObject.data.menuItems[0].item1}</MenuItem>
+              </div>
+
+              <MenuItem>{this.state.languageObject.data.menuItems[1].title}</MenuItem>
+              <MenuItem>{this.state.languageObject.data.menuItems[2].title}</MenuItem>
+              <MenuItem>{this.state.languageObject.data.menuItems[3].title}</MenuItem>
+              <MenuItem>{this.state.languageObject.data.menuItems[4].title}</MenuItem>
+              <MenuItem>{this.state.languageObject.data.menuItems[5].title}</MenuItem>
+              <MenuItem>{this.state.languageObject.data.menuItems[6].title}</MenuItem>
+            </div>
+
           </Drawer>
         </div>
       </div>
