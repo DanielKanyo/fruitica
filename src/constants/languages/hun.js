@@ -2,15 +2,15 @@ export const dataHun = {
   data: {
     menuItems: [
       {
-        "title": "O Kompaniji",
-        "item1": "Osnovne informacije i istorijat kompanije",
-        "item2": "Naša vizija",
-        "item3": "Naša misija",
-        "item4": "Politika kvaliteta",
-        "item5": "Referencije",
+        "title": "Cégünkről",
+        "item1": "A cég adatai és története",
+        "item2": "Jövőképünk",
+        "item3": "Küldetésünk",
+        "item4": "Minőségpolitika",
+        "item5": "Referenciáink",
       },
       {
-        "title": "Industrijski Proizvodi",
+        "title": "Ipari Termékek",
         "item1": "Wild",
         "item2": "Agrana",
         "item3": "Mprofood"

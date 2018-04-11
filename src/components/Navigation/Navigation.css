@@ -8,6 +8,11 @@
   box-shadow: none !important;
 }
 
+.Navigation .app-bar a {
+  color: white;
+  text-decoration: none;
+}
+
 .Navigation .app-bar h1 {
   font-size: 20px !important;
 }
@@ -49,10 +54,19 @@
 
 .drawer-menu-items {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .drawer-menu-items div {
   font-family: 'Times New Roman', Times, serif !important;
+}
+
+.submenu {
+  display: none;
+}
+
+.sm-active {
+  display: block;
 }
 
 .submenu-item {
@@ -60,9 +74,18 @@
   background: #f8f8f8 !important;
 }
 
+.submenu-item:hover {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+
 .submenu span {
   line-height: 24px !important;
   padding: 10px 16px !important;
+}
+
+.menu-btn-category span {
+  text-transform: capitalize !important;
+  font-size: 16px !important;
 }
 
 @media only screen and (max-width: 900px) {
