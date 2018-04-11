@@ -66,13 +66,17 @@ class Navigation extends React.Component {
     }
   }
 
-  handleMenuItemToggle(number) {
+  handleMenuItemToggle(e, number) {
+    let target = e.target;
     let submenu = document.getElementsByClassName("submenu" + number)[0];
+    let svgElement = target.children[2];
     
     if (submenu.classList.contains("sm-active")) {
       submenu.classList.remove("sm-active");
+      svgElement.style.transform = "rotate(0deg)";
     } else {
       submenu.classList.add("sm-active");
+      svgElement.style.transform = "rotate(180deg)";
     }
   }
 
@@ -112,7 +116,7 @@ class Navigation extends React.Component {
                 className="menu-btn-category"
                 fullWidth={true}
                 style={styles.flatButtonStyle}
-                onClick={() => { this.handleMenuItemToggle(1) }}
+                onClick={(e) => { this.handleMenuItemToggle(e, 1) }}
                 label={this.state.languageObject.data.menuItems[0].title}
                 labelPosition="before"
                 icon={<ExpandMoreIcon style={styles.menuIconStyle} />}
@@ -131,7 +135,7 @@ class Navigation extends React.Component {
                 className="menu-btn-category"
                 fullWidth={true}
                 style={styles.flatButtonStyle}
-                onClick={() => { this.handleMenuItemToggle(2) }}
+                onClick={(e) => { this.handleMenuItemToggle(e, 2) }}
                 label={this.state.languageObject.data.menuItems[1].title}
                 labelPosition="before"
                 icon={<ExpandMoreIcon style={styles.menuIconStyle} />}
