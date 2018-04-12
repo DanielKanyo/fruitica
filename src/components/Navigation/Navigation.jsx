@@ -24,7 +24,8 @@ const styles = {
   flatButtonStyle: {
     textAlign: 'left',
     textTransform: 'capitalize',
-    height: '45px'
+    height: '45px',
+    whiteSpace: 'normal'
   }
 };
 
@@ -171,7 +172,7 @@ class Navigation extends React.Component {
                 <div className="subsubmenu subsubmenu1">
                   <Link to={routes.COMETITION1}>
                     <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
-                      {this.state.languageObject.data.menuItems[0].subItem1}
+                      {this.state.languageObject.data.menuItems[0].subItem51}
                     </MenuItem>
                   </Link>
                 </div>
@@ -189,9 +190,28 @@ class Navigation extends React.Component {
               />
 
               <div className="submenu submenu2">
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
-                  {this.state.languageObject.data.menuItems[1].item1}
-                </MenuItem>
+                <FlatButton
+                  className="menu-btn-sub-category"
+                  fullWidth={true}
+                  style={styles.flatButtonStyle}
+                  onClick={(e) => { this.handleSubMenuItemToggle(e, 2) }}
+                  label={this.state.languageObject.data.menuItems[1].item1}
+                  labelPosition="before"
+                  icon={<ExpandMoreIcon style={styles.menuIconStyle} />}
+                />
+
+                <div className="subsubmenu subsubmenu2">
+                  <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
+                    {this.state.languageObject.data.menuItems[1].subItem11}
+                  </MenuItem>
+                  <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
+                    {this.state.languageObject.data.menuItems[1].subItem12}
+                  </MenuItem>
+                  <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
+                    {this.state.languageObject.data.menuItems[1].subItem13}
+                  </MenuItem>
+                </div>
+
                 <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
                   {this.state.languageObject.data.menuItems[1].item2}
                 </MenuItem>
@@ -207,7 +227,7 @@ class Navigation extends React.Component {
 
           </Drawer>
         </div>
-      </div>
+      </div >
     );
   }
 }

@@ -10,7 +10,7 @@ class Competition extends React.Component {
         <AppBar
           className="about-app-bar-header"
           showMenuIconButton={false}
-          title={this.props.languageObjectProp.data.menuItems[0].subItem1}
+          title={this.props.languageObjectProp.data.menuItems[0].subItem51}
         />
         <div className="about-text-container">
           <p>{this.props.languageObjectProp.data.competition1.part1}</p>

@@ -84,11 +84,12 @@
 
 .submenu span {
   line-height: 24px !important;
-  padding: 12px 16px !important;
+  padding: 12px 0px 12px 10px !important;
 }
 
 .menu-btn-category {
   pointer-events: none !important;
+  border-radius: 0px !important;
 }
 
 .menu-btn-category>div {
@@ -96,11 +97,13 @@
 }
 
 .menu-btn-category span {
-  text-transform: capitalize !important;
+  text-transform: none !important;
   font-size: 16px !important;
 }
 
 .menu-btn-category svg {
+  margin-right: 6px !important;
+  margin-left: 0px !important;
   pointer-events: none;
 }
 
@@ -110,6 +113,7 @@
 
 .menu-btn-sub-category {
   background: #f8f8f8 !important;
+  border-radius: 0px !important;
 }
 
 .menu-btn-sub-category:hover {
@@ -121,7 +125,7 @@
 }
 
 .menu-btn-sub-category span {
-  text-transform: capitalize !important;
+  text-transform: none !important;
   font-size: 16px !important;
 }
 
@@ -135,6 +139,8 @@
 
 .menu-btn-sub-category svg {
   pointer-events: none;
+  margin-right: 6px !important;
+  margin-left: 0px !important;
 }
 
 .subsubmenu-item {

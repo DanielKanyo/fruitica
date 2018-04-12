@@ -7,13 +7,17 @@ export const dataHun = {
         item3: "Hírek",
         item4: "Galéria",
         item5: "Pályázat",
-        subItem1: "BGA – Új mezőgazdasági erőgép beszerzése"
+        subItem51: "BGA – Új mezőgazdasági erőgép beszerzése"
       },
       {
         title: "Termékek",
-        item1: "Wild",
-        item2: "Agrana",
-        item3: "Mprofood"
+        item1: "Élelmiszeripari alapanyagok",
+        item2: "Közfogyasztási cikkek",
+        item3: "Mezőgazdasági termelés",
+        subItem11: "Wild",
+        subItem12: "Mokate",
+        subItem13: "Supperfood",
+        subItem14: "Mprofood",
       },
       {
         title: "Karrier"

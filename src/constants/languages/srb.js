@@ -7,13 +7,17 @@ export const dataSrb = {
         item3: "Vesti",
         item4: "Galerija",
         item5: "Projekti",
-        subItem1: "BGA – Kupovina nove poljoprivredne mašine"
+        subItem51: "BGA – Kupovina nove poljoprivredne mašine"
       },
       {
         title: "Proizvodi",
-        item1: "Wild",
-        item2: "Agrana",
-        item3: "Mprofood"
+        item1: "Sirovine za prehrambenu industriju",
+        item2: "Potrošački proizvodi",
+        item3: "Poljoprivredna proizvodnja",
+        subItem11: "Wild",
+        subItem12: "Mokate",
+        subItem13: "Supperfood",
+        subItem14: "Mprofood",
       },
       {
         title: "Karijera"
