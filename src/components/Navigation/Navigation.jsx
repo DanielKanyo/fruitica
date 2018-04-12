@@ -122,6 +122,9 @@ class Navigation extends React.Component {
             </IconMenu>
           }
         />
+        <div className="mini-header">
+          Uvoz i trgovina na veliko prehrambenim proizvodima, sirovinama i aditivima. | Trg Republike 7., 24220 Čantavir, Tel: +381 24 782 600
+        </div>
 
         <div>
           <Drawer className="drawer" open={this.state.open}>
@@ -130,7 +133,10 @@ class Navigation extends React.Component {
               <IconButton onClick={() => this.handleToggle()}><NavigationClose /></IconButton>
             </div>
 
-            <div className="drawer-header"></div>
+            <div className="drawer-header">
+              {this.state.languageObject.data.menuItems[0].drawerTitle}
+            </div>
+            <div className="drawer-mini-header"></div>
 
             <div className="drawer-menu-items">
 
@@ -197,6 +203,13 @@ class Navigation extends React.Component {
               />
 
               <div className="submenu submenu2">
+                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
+                  {this.state.languageObject.data.menuItems[1].item2}
+                </MenuItem>
+                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
+                  {this.state.languageObject.data.menuItems[1].item3}
+                </MenuItem>
+
                 <FlatButton
                   className="menu-btn-sub-category"
                   fullWidth={true}
@@ -206,7 +219,6 @@ class Navigation extends React.Component {
                   labelPosition="before"
                   icon={<ExpandMoreIcon style={styles.menuIconStyle} />}
                 />
-
                 <div className="subsubmenu subsubmenu2">
                   <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
                     {this.state.languageObject.data.menuItems[1].subItem11}
@@ -218,13 +230,6 @@ class Navigation extends React.Component {
                     {this.state.languageObject.data.menuItems[1].subItem13}
                   </MenuItem>
                 </div>
-
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
-                  {this.state.languageObject.data.menuItems[1].item2}
-                </MenuItem>
-                <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
-                  {this.state.languageObject.data.menuItems[1].item3}
-                </MenuItem>
               </div>
 
               {/* third */}

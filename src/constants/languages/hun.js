@@ -7,7 +7,8 @@ export const dataHun = {
         item3: "Hírek",
         item4: "Galéria",
         item5: "Pályázat",
-        subItem51: "BGA – Új mezőgazdasági erőgép beszerzése"
+        subItem51: "BGA – Új mezőgazdasági erőgép beszerzése",
+        drawerTitle: "Menü"
       },
       {
         title: "Termékek",
@@ -28,11 +29,11 @@ export const dataHun = {
     ],
     languages: ["HUN", "SRB", "ENG"],
     companyData: {
-      part1: `A Fruitica d.o.o. vállalat székhelye Csantavér, 1996–ban alakult, mint a németországi WILD vállalat hivatalos
-      képviselője, és alapítása óta az élelmiszeripari termékek és üdítőitalok (gyümölcs– és zöldségkészítmények,
+      part1: `A Fruitica d.o.o. vállalat székhelye Csantavér, 1996 – ban alakult, mint a németországi WILD vállalat hivatalos
+      képviselője, és alapítása óta az élelmiszeripari termékek és üdítőitalok (gyümölcs – és zöldségkészítmények,
       aromák, kivonatok, természetes színezőanyagok, koncentrátumok, édesítőszerek, különleges összetevők)
       előállításához szükséges ipari termékek importjával és forgalmazásával foglalkozik.`,
-      part2: `2002 – а vállalat kiterjesztette tevékenységét a késztermékek behozatalára és forgalmazására.`,
+      part2: `2002 – ben а vállalat kiterjesztette tevékenységét a késztermékek behozatalára és forgalmazására.`,
       part3: `2008 – a HACCP és ISO 9001 szabványok bevezetése.`,
       part4: `2010 – a mezőgazdasági termelés megkezdése.`,
       part5: `A raktározási és elosztási igények kielégítésére a vállalat modern, 600 m²-es központi raktárral rendelkezik,

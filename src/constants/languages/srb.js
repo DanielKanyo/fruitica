@@ -7,7 +7,8 @@ export const dataSrb = {
         item3: "Vesti",
         item4: "Galerija",
         item5: "Projekti",
-        subItem51: "BGA – Kupovina nove poljoprivredne mašine"
+        subItem51: "BGA – Kupovina nove poljoprivredne mašine",
+        drawerTitle: "Meni"
       },
       {
         title: "Proizvodi",
@@ -29,14 +30,14 @@ export const dataSrb = {
     languages: ["HUN", "SRB", "ENG"],
     companyData: {
       part1: `Kompanija Fruitica d.o.o. sa sedištem u Čantaviru osnovana je 1996. godine kao generalni zastupnik nemačke
-        kompanije WILD i od samog osnivanja bavi se uvozom i distribucijom industrijskih proizvoda za potrebe
-        proizvodnje prehrambenih proizvoda i bezalkoholnih napitaka (voćni i povrćni preparati, arome, ekstrakti,
-        prirodne boje, koncentrati, zaslađivači, specijalni sastojci).`,
+      kompanije WILD i od samog osnivanja bavi se uvozom i distribucijom industrijskih proizvoda za potrebe
+      proizvodnje prehrambenih proizvoda i bezalkoholnih napitaka (voćni i povrćni preparati, arome, ekstrakti,
+      prirodne boje, koncentrati, zaslađivači, specijalni sastojci).`,
       part2: `2002. godine kompanija je proširila delatnost na uvoz i distribuciju gotovih proizvoda.`,
-      part3: `2008. godine su uvedene HACCP i ISO 9001 standarde.`,
-      part4: `2010. godine je počela proizvodnju primarnih poljoprivrednih proizvoda.`,
+      part3: `2008. godine su uvedeni HACCP i ISO 9001 standardi.`,
+      part4: `2010. godine je počela proizvodnja primarnih poljoprivrednih proizvoda.`,
       part5: `Za potrebe skladištenja i distribucije kompanija raspolaže savremenim centralnim skladišnim prostorom od 600
-        m², koji se nalazi u Čantaviru blizu autoputa E75.`
+      m², koji se nalazi u Čantaviru blizu autoputa E75.`
     },
     mission: {
       part1: `Naša misija je da kontinuirano i konzistentno zadovoljavamo potrebe potrošača i poslovnih partnera, obezbedimo
@@ -44,7 +45,7 @@ export const dataSrb = {
       način života i radimo za dobrobit društva u kome živimo svakodnevni život.`,
       part2: `Politika Kvaliteta I Bezbednosti Proizvoda`,
       part3: `Samo zadovoljni korisnici se vraćaju ponovnoj kupovini - a redovnom kupovinom naših proizvoda osiguravaju
-      dugoročni opstanak kompanije &quot;Fruitica d.o.o.“ a samim tim i stabilnu egzistencijalnu osnovu svim zaposlenima u
+      dugoročni opstanak kompanije "Fruitica d.o.o." a samim tim i stabilnu egzistencijalnu osnovu svim zaposlenima u
       kompaniji.`,
       part4: `Zato zadovoljenje ne samo zahteva, već i neiskazanih očekivanja korisnika, tj. osiguranje kvaliteta i bezbednosti
       proizvoda je prioritetna obaveza zaposlenih na svim nivoima aktivnosti u kompaniji Fruitica d.o.o.`,
@@ -71,7 +72,7 @@ export const dataSrb = {
       part1: `Kupovina nove poljoprivredne mašine / Bethlen Gábor Fond`,
       part2: `Iznos ugovorene pomoći: 4 500 000 Huf.`,
       part3: `Prezentacija sadržaja projekta: Naša firma FRUITICA d.o.o. je kompanija koja se dinamički razvija.
-      Prema sporazumu između Fruitica d.o.o. i Vlade Mađarske (Betlen Gabor Fond, kao podrška) Fruitica
+      Prema sporazumu između Fruitica d.o.o. i Vlade Mađarske (Bethlen Gabor Fond, kao podrška) Fruitica
       d.o.o. je osvojila 4,5 miliona Huf. bespovratne pomoći za kupovinu produktivnih sredstava.`,
       part4: `Pod identikacionim brojem CSV-KP- 1-2017/1- 000007 osnovni cilj je povećanje tehničke opreme
       kompanije.`,
