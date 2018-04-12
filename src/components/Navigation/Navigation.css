@@ -114,6 +114,7 @@
 .menu-btn-sub-category {
   background: #f8f8f8 !important;
   border-radius: 0px !important;
+  height: auto !important;
 }
 
 .menu-btn-sub-category:hover {
@@ -122,15 +123,21 @@
 
 .menu-btn-sub-category>div {
   padding: 0px 0px 0px 16px !important;
+  float: left;
+  height: auto !important;
+  width: 100%;
 }
 
 .menu-btn-sub-category span {
   text-transform: none !important;
   font-size: 16px !important;
+  float: left;
+  max-width: 230px;
 }
 
 .subsubmenu {
   display: none;
+  /* margin-top: -6px; */
 }
 
 .ssm-active {
@@ -139,8 +146,11 @@
 
 .menu-btn-sub-category svg {
   pointer-events: none;
+  position: absolute;
+  right: 0;
   margin-right: 6px !important;
   margin-left: 0px !important;
+  margin-top: 12px !important;
 }
 
 .subsubmenu-item {
