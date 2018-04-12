@@ -40,6 +40,7 @@ class Navigation extends React.Component {
     this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
     this.handleMenuItemToggle = this.handleMenuItemToggle.bind(this);
     this.handleSubMenuItemToggle = this.handleSubMenuItemToggle.bind(this);
+    this.handleToggle = this.handleToggle.bind(this);
   }
 
   /** catch the language state change event, and change this component's state too */
@@ -56,7 +57,10 @@ class Navigation extends React.Component {
   }
 
   /** handle drawer */
-  handleToggle = () => this.setState({ open: !this.state.open });
+  handleToggle() {
+    console.log('asdasd')
+    this.setState({ open: !this.state.open });
+  }
 
   /** if screen smaller than 900 pixel hide drawer */
   componentWillMount() {
@@ -71,7 +75,7 @@ class Navigation extends React.Component {
   handleMenuItemToggle(e, number) {
     let target = e.target;
     let submenu = document.getElementsByClassName("submenu" + number)[0];
-    let svgElement = target.children[2];
+    let svgElement = target.children[0].children[1];
 
     if (submenu.classList.contains("sm-active")) {
       submenu.classList.remove("sm-active");
@@ -85,7 +89,9 @@ class Navigation extends React.Component {
   handleSubMenuItemToggle(e, number) {
     let target = e.target;
     let submenu = document.getElementsByClassName("subsubmenu" + number)[0];
-    let svgElement = target.children[2];
+    let svgElement = target.children[0].children[1];
+
+    console.log(svgElement)
 
     if (submenu.classList.contains("ssm-active")) {
       submenu.classList.remove("ssm-active");
@@ -103,7 +109,8 @@ class Navigation extends React.Component {
         <AppBar
           className="app-bar"
           title={<Link to={routes.HOME}><h1>Fruitica d.o.o</h1></Link>}
-          iconElementLeft={<IconButton className="hamb-icon"><NavigationMenu onClick={this.handleToggle} /></IconButton>}
+          iconElementLeft={<IconButton className="hamb-icon"><NavigationMenu /></IconButton>}
+          onLeftIconButtonClick={this.handleToggle}
           iconElementRight={
             <IconMenu iconButtonElement={<IconButton><FlagIcon /></IconButton>}
               targetOrigin={{ horizontal: 'right', vertical: 'top' }}
@@ -120,7 +127,7 @@ class Navigation extends React.Component {
           <Drawer className="drawer" open={this.state.open}>
 
             <div className="close-drawer-container">
-              <IconButton><NavigationClose onClick={this.handleToggle} /></IconButton>
+              <IconButton onClick={() => this.handleToggle()}><NavigationClose /></IconButton>
             </div>
 
             <div className="drawer-header"></div>
