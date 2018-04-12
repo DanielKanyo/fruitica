@@ -203,9 +203,6 @@ class Navigation extends React.Component {
               {/* third */}
               <MenuItem>{this.state.languageObject.data.menuItems[2].title}</MenuItem>
               <MenuItem>{this.state.languageObject.data.menuItems[3].title}</MenuItem>
-              <MenuItem>{this.state.languageObject.data.menuItems[4].title}</MenuItem>
-              <MenuItem>{this.state.languageObject.data.menuItems[5].title}</MenuItem>
-              <MenuItem>{this.state.languageObject.data.menuItems[6].title}</MenuItem>
             </div>
 
           </Drawer>

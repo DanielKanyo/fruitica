@@ -16,15 +16,6 @@ export const dataSrb = {
         item3: "Mprofood"
       },
       {
-        title: "Potrošački Proizvodi"
-      },
-      {
-        title: "Poljoprivreda"
-      },
-      {
-        title: "Razvojni Projekti"
-      },
-      {
         title: "Karijera"
       },
       {
