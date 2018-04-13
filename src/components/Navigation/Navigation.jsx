@@ -123,7 +123,7 @@ class Navigation extends React.Component {
           }
         />
         <div className="mini-header">
-          Uvoz i trgovina na veliko prehrambenim proizvodima, sirovinama i aditivima. | Trg Republike 7., 24220 Čantavir, Tel: +381 24 782 600
+          Uvoz i trgovina na veliko prehrambenim proizvodima, sirovinama i aditivima. | Trg Republike 7., 24220 Čantavir, Tel: +381 24 782 600, office@fruitica.info
         </div>
 
         <div>
@@ -228,6 +228,9 @@ class Navigation extends React.Component {
                   </MenuItem>
                   <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
                     {this.state.languageObject.data.menuItems[1].subItem13}
+                  </MenuItem>
+                  <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
+                    {this.state.languageObject.data.menuItems[1].subItem14}
                   </MenuItem>
                 </div>
               </div>
