@@ -14,6 +14,7 @@ import Mission from './components/About/Mission';
 import News from './components/About/News';
 import Gallery from './components/About/Gallery';
 import Competition1 from './components/About/Competition1';
+import Wild from './components/Materials/Wild';
 
 import { dataHun } from './constants/languages/hun';
 import { dataSrb } from './constants/languages/srb';
@@ -90,6 +91,11 @@ class App extends Component {
               exact
               path={routes.COMETITION1}
               component={() => <Competition1 languageObjectProp={this.state.languageObject} />}
+            />
+            <Route
+              exact
+              path={routes.WILD}
+              component={() => <Wild languageObjectProp={this.state.languageObject} />}
             />
           </div>
         </div>

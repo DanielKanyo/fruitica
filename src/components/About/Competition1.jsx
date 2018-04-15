@@ -6,13 +6,13 @@ import img1 from '../../images/kormany_tamogatas_logo.jpg';
 class Competition extends React.Component {
   render() {
     return (
-      <div className="About Competition">
+      <div className="Component Competition">
         <AppBar
-          className="about-app-bar-header"
+          className="component-app-bar-header"
           showMenuIconButton={false}
           title={this.props.languageObjectProp.data.menuItems[0].subItem51}
         />
-        <div className="about-text-container">
+        <div className="component-text-container">
           <p>{this.props.languageObjectProp.data.competition1.part1}</p>
           <p>{this.props.languageObjectProp.data.competition1.part2}</p>
           <p>{this.props.languageObjectProp.data.competition1.part3}</p>

@@ -91,6 +91,33 @@ export const dataHun = {
       part12: `24220 Csantavér`,
       part13: `Köztársaság tér 7.`,
       part14: `Szerb Köztársaság`,
+    },
+    wild: {
+      title: `Wild`,
+      part1: `1931. godine Rudolf Wild je osnovao kompaniju WILD u Heidelbergu, u Nemačkoj, zasnivajući temelje globalnog
+      uspeha kompanije na viziji proizvodnje bezalkoholnih napitaka isključivo na bazi prirodnih sastojaka.`,
+      part2: `WILD je danas jedan od vodećih svetskih dobavljača prirodnih aroma za prehrambenu i industriju bezalkoholnih
+      pića i najveća kompanija za aromatizovane sastojke na svetu.`,
+      part3: `&quot;Mi stvaramo sjajan ukus&quot; je WILD-ov moto za hranu i bezalkoholna pića širom sveta. Zahvaljujući brojnim
+      proizvodnim odeljenjima u Evropi, Severnoj Americi i Kini kao i filijalima u više od 70 zemalja, WILD prepoznaje
+      specifične zahteve tržišta prehrane i bezalkoholnih pića širom sveta. Širenje inovacija i anticipiranje potrebe
+      kupaca su nosivi stubovi uspeha kompanije WILD. Međunarodna razmena stručnosti među zaposlenima
+      osiguravaju WILD-u ranije prepoznavanje trendova i uvođenje vrhunskih inovacija u korist kupaca. Otprilike 2.500
+      zaposlenih širom sveta aktivno istražuju, proširuju, proizvode i prodaju.`,
+      part4: `Decenije iskustva u razvoju i trgovini prirodnim sastojcima osiguravaju WILD-ovim kupcima izbor i proizvode koji
+      će odoleti ispitu vremena.`,
+      part5: `WILD je vodeći proizvođač prirodnih sastojaka, njegov proizvodni portfejl prirodno-aromatičnih sastojaka
+      obuhvata kompletna rešenja kao što su sirovine za piće, poznati kao sistemi ukusa, i to voćni i povrćni preparati.`,
+      part6: `Pored toga WILD proizvodi individualne komponente kao što su arome i ekstrakti, prirodne boje, koncetrati,
+      zaslađivači i specijalni sastojci. WILD nudi kompletna rešenja za proizvodnju bezalkoholnih i alkoholnih pića,
+      mlečnih proizvoda, sladoleda, peciva i slatkiša.`,
+      part7: `Za više informacije posetite stranicu: `,
+      part8: `www.wildflavors.com`,
+      part9: `1996. godine Fruitica d.o.o. sa sedištem u Čantaviru postala je generalni zastupnik kompanije Wild u Srbiji, i od
+      tada uspešno zadovoljava zahteve kupaca zahvaljujući stručnoj kompetenciji i kontinuelnoj saradnji sa
+      najsavremenijim laboratorijama WILD-a. Našim cenjenim postojećim kupcima i potencijalnim kupcima nudimo
+      sastojke i celokupna rešenja za proizvodnju bezalkoholnih napitaka i drugih prehrambenih proizvoda.`,
+      part10: `Za poslovni ili savetodavni razgovor kontaktirajte nas!`
     }
   }
 }

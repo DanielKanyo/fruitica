@@ -5,14 +5,14 @@ import AppBar from 'material-ui/AppBar';
 class Home extends React.Component {
   render() {
     return (
-      <div className="About Mission">
+      <div className="Component">
         <AppBar
-          className="about-app-bar-header"
+          className="component-app-bar-header"
           showMenuIconButton={false}
-          title="Üdvözöllek"
+          title="Pozdravljam vas"
         />
-        <div className="about-text-container">
-          <p>A weboldal jelenleg fejlesztés alatt áll...</p>
+        <div className="component-text-container">
+          <p>Razvijanje sajta je u toku...</p>
         </div>
         
       </div>
