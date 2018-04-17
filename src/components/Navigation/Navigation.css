@@ -180,6 +180,10 @@
   margin-top: -6px;
 }
 
+.Navigation a {
+  text-decoration: none !important;
+}
+
 @media only screen and (max-width: 900px) {
   .Navigation {
     margin-left: 0px;
