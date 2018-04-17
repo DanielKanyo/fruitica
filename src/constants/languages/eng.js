@@ -120,6 +120,9 @@ export const dataEng = {
       najsavremenijim laboratorijama WILD-a. Našim cenjenim postojećim kupcima i potencijalnim kupcima nudimo
       sastojke i celokupna rešenja za proizvodnju bezalkoholnih napitaka i drugih prehrambenih proizvoda.`,
       part10: `Za poslovni ili savetodavni razgovor kontaktirajte nas!`
+    },
+    contact: {
+      title: `Kontakt`
     }
   }
 }

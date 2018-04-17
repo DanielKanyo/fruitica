@@ -1,4 +1,13 @@
-.Wild {
+/* .Wild {
   background: url('../../images/juice.jpg');
   background-size: 100%;
+} */
+
+.component-header-img {
+  background: url('../../images/juice.jpg');
+  background-position: center;
+  background-size: 100%;
+  border: 1px solid #08b132;
+  height: 180px;
+  margin-bottom: 30px;
 }

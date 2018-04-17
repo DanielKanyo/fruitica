@@ -239,7 +239,10 @@ class Navigation extends React.Component {
 
               {/* third */}
               <MenuItem>{this.state.languageObject.data.menuItems[2].title}</MenuItem>
-              <MenuItem>{this.state.languageObject.data.menuItems[3].title}</MenuItem>
+              {/* forth */}
+              <Link to={routes.CONTACT}>
+                <MenuItem>{this.state.languageObject.data.menuItems[3].title}</MenuItem>
+              </Link>
             </div>
 
           </Drawer>

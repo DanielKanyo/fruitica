@@ -7,11 +7,15 @@ class Wild extends React.Component {
   render() {
     return (
       <div className="Component Wild">
+
+        <div className="component-header-img"></div>
+        
         <AppBar
           className="component-app-bar-header"
           showMenuIconButton={false}
           title={this.props.languageObjectProp.data.wild.title}
         />
+
         <div className="component-text-container">
           <p>{this.props.languageObjectProp.data.wild.part1}</p>
           <p>{this.props.languageObjectProp.data.wild.part2}</p>
