@@ -43,7 +43,7 @@ export const dataSrb = {
       part1: `Naša misija je da kontinuirano i konzistentno zadovoljavamo potrebe potrošača i poslovnih partnera, obezbedimo
       okruženje u kome će naši zaposleni da teže uspesima u atmosferi koja podstiče njihov razvoj, da poboljšavamo
       način života i radimo za dobrobit društva u kome živimo svakodnevni život.`,
-      part2: `Politika Kvaliteta I Bezbednosti Proizvoda`,
+      part2: `Politika kvaliteta i bezbednosti proizvoda`,
       part3: `Samo zadovoljni korisnici se vraćaju ponovnoj kupovini - a redovnom kupovinom naših proizvoda osiguravaju
       dugoročni opstanak kompanije "Fruitica d.o.o." a samim tim i stabilnu egzistencijalnu osnovu svim zaposlenima u
       kompaniji.`,
