@@ -94,30 +94,32 @@ export const dataHun = {
     },
     wild: {
       title: `Wild`,
-      part1: `1931. godine Rudolf Wild je osnovao kompaniju WILD u Heidelbergu, u Nemačkoj, zasnivajući temelje globalnog
-      uspeha kompanije na viziji proizvodnje bezalkoholnih napitaka isključivo na bazi prirodnih sastojaka.`,
-      part2: `WILD je danas jedan od vodećih svetskih dobavljača prirodnih aroma za prehrambenu i industriju bezalkoholnih
-      pića i najveća kompanija za aromatizovane sastojke na svetu.`,
-      part3: `&quot;Mi stvaramo sjajan ukus&quot; je WILD-ov moto za hranu i bezalkoholna pića širom sveta. Zahvaljujući brojnim
-      proizvodnim odeljenjima u Evropi, Severnoj Americi i Kini kao i filijalima u više od 70 zemalja, WILD prepoznaje
-      specifične zahteve tržišta prehrane i bezalkoholnih pića širom sveta. Širenje inovacija i anticipiranje potrebe
-      kupaca su nosivi stubovi uspeha kompanije WILD. Međunarodna razmena stručnosti među zaposlenima
-      osiguravaju WILD-u ranije prepoznavanje trendova i uvođenje vrhunskih inovacija u korist kupaca. Otprilike 2.500
-      zaposlenih širom sveta aktivno istražuju, proširuju, proizvode i prodaju.`,
-      part4: `Decenije iskustva u razvoju i trgovini prirodnim sastojcima osiguravaju WILD-ovim kupcima izbor i proizvode koji
-      će odoleti ispitu vremena.`,
-      part5: `WILD je vodeći proizvođač prirodnih sastojaka, njegov proizvodni portfejl prirodno-aromatičnih sastojaka
-      obuhvata kompletna rešenja kao što su sirovine za piće, poznati kao sistemi ukusa, i to voćni i povrćni preparati.`,
-      part6: `Pored toga WILD proizvodi individualne komponente kao što su arome i ekstrakti, prirodne boje, koncetrati,
-      zaslađivači i specijalni sastojci. WILD nudi kompletna rešenja za proizvodnju bezalkoholnih i alkoholnih pića,
-      mlečnih proizvoda, sladoleda, peciva i slatkiša.`,
-      part7: `Za više informacije posetite stranicu: `,
+      part1: `Rudolf Wild 1931-ben alapította meg a WILD vállalatot Heidelbergben, Németországban, a cég globális
+      sikerének alapja az üdítőitalok kizárólag természetes összetevőkön alapuló elképzelése.`,
+      part2: `A WILD jelenleg a világ egyik vezető szállítója az alkoholmentes italok aromáinak, valamint a világ egyik
+      legnagyobb ízesített alapanyagok gyártóinak.`,
+      part3: `„Mi ízeket alkotunk“ – a WILD mottója világszerte az élelmiszerek és alkoholmentes italok gyártásában. Európa,
+      Észak-Amerika és Kína számos termelési részlegének, valamint több mint 70 országban működő ágazatoknak
+      köszönhetően a WILD felismeri az élelmiszer- és alkoholtartalmú italok piacának különös követelményeit az
+      egész világon. Az innovációk terjesztése és az ügyfelek igényeinek előrérzete a WILD sikerének pillére. A
+      nemzetközi szakértelem és tapasztalat cseréje az alkalmazottak körében biztosítja a WILD trendjeinek és kiváló
+      innovációinak bevezetését ügyfelei javára. Világszerte mintegy 2.500 alaklmazott aktívan kutat, bővít, gyárt és
+      értékesít.`,
+      part4: `A termékskálák fejlesztésében és kereskedelmében szerzett évtizedes tapasztalat a WILD ügyfeleinek olyan
+      választékot és termékeket kínál, amelyek kiállják az idő próbáját.`,
+      part5: `A WILD a természetes összetevők egyik vezető gyártója, az aromás összetevők termékportfóliója magába
+      foglalja a teljes körű megoldásokat az ízrendszerek néven ismert italanyagokra, mind a gyümölcsös, mind a
+      növényi készítményeket.`,
+      part6: `Ezen kívül a vállalat olyan egyedi összetevőket állít elő, mint az aromák és kivonatok, természetes színek,
+      koncentrátumok, édesítőszerek és speciális összetevők. A WILD komplett megoldásokat kínál alkoholmentes és
+      alkoholos italok, tejtermékek, fagylaltok, sütemények és édességek előállítására.`,
+      part7: `További információért látogasson el a következő weboldalra: `,
       part8: `www.wildflavors.com`,
-      part9: `1996. godine Fruitica d.o.o. sa sedištem u Čantaviru postala je generalni zastupnik kompanije Wild u Srbiji, i od
-      tada uspešno zadovoljava zahteve kupaca zahvaljujući stručnoj kompetenciji i kontinuelnoj saradnji sa
-      najsavremenijim laboratorijama WILD-a. Našim cenjenim postojećim kupcima i potencijalnim kupcima nudimo
-      sastojke i celokupna rešenja za proizvodnju bezalkoholnih napitaka i drugih prehrambenih proizvoda.`,
-      part10: `Za poslovni ili savetodavni razgovor kontaktirajte nas!`
+      part9: `1996. – ban a Fruitica d.o.o., amely Csantavéren található, a Wild hivatalos forgalmazója lett Szerbiában, és
+      azóta is sikeresen kielégíti az ügyfelek igényeit a szakmai kompetencia és a legfrissebb WILD laboratóriumok
+      folyamatos együttműködésének köszönhetően. Megbecsült meglévő ügyfeleinknek és potenciális vásárlóinknak összetevőket és 
+      teljes megoldásokat kínálunk üdítőitalok és egyéb élelmiszerek előállításához.`,
+      part10: `Vegye fel velünk a kapcsolatot üzleti vagy tanácsadói beszélgetéshez!`
     },
     contact: {
       title: `Kapcsolat`

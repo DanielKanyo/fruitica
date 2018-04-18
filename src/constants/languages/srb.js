@@ -96,7 +96,7 @@ export const dataSrb = {
       uspeha kompanije na viziji proizvodnje bezalkoholnih napitaka isključivo na bazi prirodnih sastojaka.`,
       part2: `WILD je danas jedan od vodećih svetskih dobavljača prirodnih aroma za prehrambenu i industriju bezalkoholnih
       pića i najveća kompanija za aromatizovane sastojke na svetu.`,
-      part3: `&quot;Mi stvaramo sjajan ukus&quot; je WILD-ov moto za hranu i bezalkoholna pića širom sveta. Zahvaljujući brojnim
+      part3: `"Mi stvaramo sjajan ukus" je WILD-ov moto za hranu i bezalkoholna pića širom sveta. Zahvaljujući brojnim
       proizvodnim odeljenjima u Evropi, Severnoj Americi i Kini kao i filijalima u više od 70 zemalja, WILD prepoznaje
       specifične zahteve tržišta prehrane i bezalkoholnih pića širom sveta. Širenje inovacija i anticipiranje potrebe
       kupaca su nosivi stubovi uspeha kompanije WILD. Međunarodna razmena stručnosti među zaposlenima
