@@ -41,6 +41,7 @@ class Navigation extends React.Component {
     this.handleMenuItemToggle = this.handleMenuItemToggle.bind(this);
     this.handleSubMenuItemToggle = this.handleSubMenuItemToggle.bind(this);
     this.handleToggle = this.handleToggle.bind(this);
+    this.hideMenu = this.hideMenu.bind(this);
   }
 
   /** catch the language state change event, and change this component's state too */
@@ -58,7 +59,6 @@ class Navigation extends React.Component {
 
   /** handle drawer */
   handleToggle() {
-    console.log('asdasd')
     this.setState({ open: !this.state.open });
   }
 
@@ -68,10 +68,11 @@ class Navigation extends React.Component {
     if (w.innerWidth < 900) {
       this.setState({
         open: false
-      })
+      });
     }
   }
 
+  /** open or close submenu */
   handleMenuItemToggle(e, number) {
     let target = e.target;
     let submenu = document.getElementsByClassName("submenu" + number)[0];
@@ -86,12 +87,11 @@ class Navigation extends React.Component {
     }
   }
 
+  /** open or close subsubmenu */
   handleSubMenuItemToggle(e, number) {
     let target = e.target;
     let submenu = document.getElementsByClassName("subsubmenu" + number)[0];
     let svgElement = target.children[0].children[1];
-
-    console.log(svgElement)
 
     if (submenu.classList.contains("ssm-active")) {
       submenu.classList.remove("ssm-active");
@@ -99,6 +99,15 @@ class Navigation extends React.Component {
     } else {
       submenu.classList.add("ssm-active");
       svgElement.style.transform = "rotate(180deg)";
+    }
+  }
+
+  hideMenu() {
+    let w = window;
+    if (w.innerWidth < 900) {
+      this.setState({
+        open: false
+      });
     }
   }
 
@@ -152,22 +161,22 @@ class Navigation extends React.Component {
               />
 
               <div className="submenu submenu1">
-                <Link to={routes.COMPANYDATA}>
+                <Link to={routes.COMPANYDATA} onClick={() => { this.hideMenu() }}>
                   <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
                     {this.state.languageObject.data.menuItems[0].item1}
                   </MenuItem>
                 </Link>
-                <Link to={routes.MISSION}>
+                <Link to={routes.MISSION} onClick={() => { this.hideMenu() }}>
                   <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
                     {this.state.languageObject.data.menuItems[0].item2}
                   </MenuItem>
                 </Link>
-                <Link to={routes.NEWS}>
+                <Link to={routes.NEWS} onClick={() => { this.hideMenu() }}>
                   <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
                     {this.state.languageObject.data.menuItems[0].item3}
                   </MenuItem>
                 </Link>
-                <Link to={routes.GALLERY}>
+                <Link to={routes.GALLERY} onClick={() => { this.hideMenu() }}>
                   <MenuItem style={{ whiteSpace: 'normal' }} className="submenu-item">
                     {this.state.languageObject.data.menuItems[0].item4}
                   </MenuItem>
@@ -183,7 +192,7 @@ class Navigation extends React.Component {
                   icon={<ExpandMoreIcon style={styles.menuIconStyle} />}
                 />
                 <div className="subsubmenu subsubmenu1">
-                  <Link to={routes.COMETITION1}>
+                  <Link to={routes.COMETITION1} onClick={() => { this.hideMenu() }}>
                     <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
                       {this.state.languageObject.data.menuItems[0].subItem51}
                     </MenuItem>
@@ -220,7 +229,7 @@ class Navigation extends React.Component {
                   icon={<ExpandMoreIcon style={styles.menuIconStyle} />}
                 />
                 <div className="subsubmenu subsubmenu2">
-                  <Link to={routes.WILD}>
+                  <Link to={routes.WILD} onClick={() => { this.hideMenu() }}>
                     <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
                       {this.state.languageObject.data.menuItems[1].subItem11}
                     </MenuItem>
@@ -240,7 +249,7 @@ class Navigation extends React.Component {
               {/* third */}
               <MenuItem>{this.state.languageObject.data.menuItems[2].title}</MenuItem>
               {/* forth */}
-              <Link to={routes.CONTACT}>
+              <Link to={routes.CONTACT} onClick={() => { this.hideMenu() }}>
                 <MenuItem>{this.state.languageObject.data.menuItems[3].title}</MenuItem>
               </Link>
             </div>

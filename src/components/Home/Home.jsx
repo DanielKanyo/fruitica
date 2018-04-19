@@ -9,7 +9,7 @@ class Home extends React.Component {
         <AppBar
           className="component-app-bar-header"
           showMenuIconButton={false}
-          title="Pozdravljam vas"
+          title="Pozdravljam Vas"
         />
         <div className="component-text-container">
           <p>Razvijanje sajta je u toku...</p>
