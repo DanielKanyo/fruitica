@@ -26,7 +26,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      languageObject: dataHun
+      languageObject: dataSrb
     }
     this.changeLanguage = this.changeLanguage.bind(this);
   }
