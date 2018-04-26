@@ -15,6 +15,7 @@ import News from './components/About/News';
 import Gallery from './components/About/Gallery';
 import Competition1 from './components/About/Competition1';
 import Wild from './components/Materials/Wild';
+import Mokate from './components/Materials/Mokate';
 
 import { dataHun } from './constants/languages/hun';
 import { dataSrb } from './constants/languages/srb';
@@ -25,7 +26,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      languageObject: dataSrb
+      languageObject: dataHun
     }
     this.changeLanguage = this.changeLanguage.bind(this);
   }
@@ -96,6 +97,11 @@ class App extends Component {
               exact
               path={routes.WILD}
               component={() => <Wild languageObjectProp={this.state.languageObject} />}
+            />
+            <Route
+              exact
+              path={routes.MOKATE}
+              component={() => <Mokate languageObjectProp={this.state.languageObject} />}
             />
           </div>
         </div>

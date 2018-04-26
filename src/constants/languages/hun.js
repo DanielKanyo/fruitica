@@ -121,6 +121,38 @@ export const dataHun = {
       teljes megoldásokat kínálunk üdítőitalok és egyéb élelmiszerek előállításához.`,
       part10: `Vegye fel velünk a kapcsolatot üzleti vagy tanácsadói beszélgetéshez!`
     },
+    mokate: {
+      mokacb: {
+        title: `HABOSĺTÓ ITALOKHOZ | MOKA CB`,
+        part1: `A MOKA CB habosító késztermékek, amelyek elősegítik a „habos tej” hatásának elérését,
+        ugyanakkor javítják a kávéitalok és a csokoládé instant ízét. A kapszulás technológia és a
+        porlasztott szárítás lehetővé teszi a gáz lezárását a habosító kapszulákban és a termék
+        megfelelő összetételét, elősegíti az oldódást, stabil, aromás és ízletes tejhabot képezve az ital
+        tetején. Ajánlatunk a MOKA CB 40 fajta növényi zsírok széles választékát tartalmazza.`,
+        part2: `FUNKCIONALITÁS:`,
+        part3: [`széles habzásmagasság (10 – 30 mm)`, `stabilitás kemény vízben és savas pH – ban`, `íz javítás (krémesség és aroma)`, `diverzifikált fehérítő hatás`, `kiváló oldhatóság`],
+        part4: `ALKALMAZÁSA:`,
+        part5: [`cappuccino`, `latte`, `frappe`, `kávéitalok`, `csokoládéitalok`]
+      },
+      mokaero: {
+        title: `TEJSZĺNHABPOR ALAPANYAG | MOKAERO`,
+        part1: `A MOKAERO késztermékek tejszínhabporok, amelyeket porlasztva, a szárítás új technológiája
+        alkot. Alapja a növényi olaj, a fehérjék és a növényi emulgeálószerek egyedi összetétele. A
+        nyersanyagok és azok arányai határozzák meg a kulcsfontosságú paraméterek feltöltését: a
+        térfogat növekedését, konzisztenciáját, stabilitását és ízét.`,
+        part2: `Hideg desszertek készítésére használják, ahol a kézi keveréssel nyert levegőztetés hatását
+        szeretnénk elérni. A levegőztetés hatása javítja a krémet, az ízt és mindenekelőtt növeli a
+        késztermék mennyiségét.`,
+        part3: `A tejszínhabpor alapanyagot kombinálhatjuk hidrokolloidokkal, módosíthatjuk a szerkezetét,
+        növelhetjük a térfogatát és a stabilitását. A kakaó, a gyümölcspor és az aroma hozzáadása
+        nagyon ízletes desszertek készítéséhez.`,
+        part4: `FUNKCIONALITÁS:`,
+        part5: [`felverési idő < 3 perc`, `jó térfogatnövelés > 50%`, `a termék stabilitása szobahőmérsékleten`, `a késztermék krémességének és teljes ízének javulása`],
+        part6: `ALKALMAZÁSA:`,
+        part7: [`tejszínhab helyettesítő`, `hideg desszertek`, `jégkrém`, `pudingok`, `krémek`, `habok`, `turmixok`, `mártogatós`, `öntet`]
+      },
+      title: `Mokate`
+    },
     contact: {
       title: `Kapcsolat`
     }

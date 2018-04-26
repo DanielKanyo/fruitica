@@ -7,7 +7,8 @@ export const dataEng = {
         item3: "Vesti",
         item4: "Galerija",
         item5: "Projekti",
-        subItem1: "BGA – Kupovina nove poljoprivredne mašine"
+        subItem1: "BGA – Kupovina nove poljoprivredne mašine",
+        drawerTitle: "Menu"
       },
       {
         title: "Proizvodi",
@@ -120,6 +121,39 @@ export const dataEng = {
       najsavremenijim laboratorijama WILD-a. Našim cenjenim postojećim kupcima i potencijalnim kupcima nudimo
       sastojke i celokupna rešenja za proizvodnju bezalkoholnih napitaka i drugih prehrambenih proizvoda.`,
       part10: `Za poslovni ili savetodavni razgovor kontaktirajte nas!`
+    },
+    mokate: {
+      mokacb: {
+        title: `FOAMERS FOR BEVERAGES | MOKA CB`,
+        part1: `Foamers for beverages MOKA CB are instant products that easily allow to obtain the effect of
+        „foam milk” and at the same time improve the taste of coffee drinks and chocolate instant.
+        Capsules technology and spray drying allow to close gas in foamer capsules and proper
+        composition of the product, allow upon dissolution, form stable, aromatic and tasty milk foam on
+        the top of the drink. Our offer includes wide range of almost 40 standard products MOKA
+        CB based on vegetable fat.`,
+        part2: `FUNCTIONALITY:`,
+        part3: [`wide range of froth height (10 – 30 mm)`, `stability in hard water and acidic pH`, `improvement of taste (milkiness and aroma)`, `diversified whitening effect`, `excellent solubility`],
+        part4: `APPLICATION:`,
+        part5: [`cappuccino`, `latte`, `frappe`, `coffee drinks`, `chocolate drinks`]
+      },
+      mokaero: {
+        title: `TOPPING BASES | MOKAERO`,
+        part1: `Topping bases MOKAERO are instant products formed by new technology of spray drying. 
+        Based on vegetable oil, proteins and specific composition of vegetable emulsifiers. The raw
+        materials and their proportions decide about topping key parameters such as: increase in
+        volume, consistency, stability and taste.`,
+        part2: `They are used to prepare cold desserts where we desire the effect of aeration obtained by
+        manual mixing. The effect of aeration improves the creaming, taste and most of all increases the
+        volume of the finished product.`,
+        part3: `Topping base can be combined with hydrocolloids, modifying the structure, increasing the
+        volume and stability. The addition of cocoa, fruit powders and aroma allow the creation of
+        delicious desserts.`,
+        part4: `FUNCTIONALITY:`,
+        part5: [`whipping time < 3 min`, `good increase in volume > 150%`, `product stability at room temperature`, `improvement in creaminess and full taste of the finished product`],
+        part6: `APPLICATIONS:`,
+        part7: [`whipped cream substitutes`, `cold desserts`, `ice-cream`, `puddings`, `creams`, `mousses`, `shakes`, `dips`, `dressings`]
+      },
+      title: `Mokate`
     },
     contact: {
       title: `Kontakt`

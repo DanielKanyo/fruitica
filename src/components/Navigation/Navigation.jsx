@@ -6,8 +6,6 @@ import IconButton from 'material-ui/IconButton';
 import NavigationMenu from 'material-ui/svg-icons/navigation/menu';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
-import FlagIcon from 'material-ui/svg-icons/content/flag';
-import IconMenu from 'material-ui/IconMenu';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 import ExpandMoreIcon from 'material-ui/svg-icons/navigation/expand-more';
 import FlatButton from 'material-ui/FlatButton';
@@ -120,15 +118,11 @@ class Navigation extends React.Component {
           title={<Link to={routes.HOME}><h1>Fruitica d.o.o</h1></Link>}
           iconElementLeft={<IconButton className="hamb-icon"><NavigationMenu /></IconButton>}
           onLeftIconButtonClick={this.handleToggle}
-          iconElementRight={
-            <IconMenu iconButtonElement={<IconButton><FlagIcon /></IconButton>}
-              targetOrigin={{ horizontal: 'right', vertical: 'top' }}
-              anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
-            >
-              {/* <MenuItem onClick={(e) => this.handleChangeLanguage(e)} className="language" primaryText="ENG" /> */}
-              <MenuItem onClick={(e) => this.handleChangeLanguage(e)} className="language" primaryText="HUN" />
-              <MenuItem onClick={(e) => this.handleChangeLanguage(e)} className="language" primaryText="SRB" />
-            </IconMenu>
+          iconElementRight={<div className="language-select">
+              <FlatButton onClick={(e) => this.handleChangeLanguage(e)} label="ENG" />
+              <FlatButton onClick={(e) => this.handleChangeLanguage(e)} label="SRB" />
+              <FlatButton onClick={(e) => this.handleChangeLanguage(e)} label="HUN" />
+            </div>
           }
         />
         <div className="mini-header">
@@ -234,9 +228,11 @@ class Navigation extends React.Component {
                       {this.state.languageObject.data.menuItems[1].subItem11}
                     </MenuItem>
                   </Link>
-                  <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
-                    {this.state.languageObject.data.menuItems[1].subItem12}
-                  </MenuItem>
+                  <Link to={routes.MOKATE} onClick={() => { this.hideMenu() }}>
+                    <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
+                      {this.state.languageObject.data.menuItems[1].subItem12}
+                    </MenuItem>
+                  </Link>
                   <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
                     {this.state.languageObject.data.menuItems[1].subItem13}
                   </MenuItem>
