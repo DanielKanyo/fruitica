@@ -14,19 +14,14 @@ export const dataEng = {
         title: "Proizvodi",
         item1: "Wild",
         item2: "Agrana",
-        item3: "Mprofood"
+        item3: "Mprofood",
+        subItem11: "Wild",
+        subItem12: "Mokate",
+        subItem13: "Supperfood",
+        subItem14: "Mprofood",
       },
       {
-        title: "Potrošački Proizvodi"
-      },
-      {
-        title: "Poljoprivreda"
-      },
-      {
-        title: "Razvojni Projekti"
-      },
-      {
-        title: "Karijera"
+        title: "Karrier"
       },
       {
         title: "Kontakt"
