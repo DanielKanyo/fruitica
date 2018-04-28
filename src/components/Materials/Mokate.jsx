@@ -12,6 +12,8 @@ class Mokate extends React.Component {
     open1: false,
     open2: false,
     open3: false,
+    open4: false,
+    open5: false,
   };
 
   toggle = (e, val) => {
@@ -32,6 +34,12 @@ class Mokate extends React.Component {
         break;
       case "mokasw":
         this.setState(prevState => ({ open3: !prevState.open3 }));
+        break;
+      case "mokatetogo":
+        this.setState(prevState => ({ open4: !prevState.open4 }));
+        break;
+      case "mokacw":
+        this.setState(prevState => ({ open5: !prevState.open5 }));
         break;
       default:
         break;
@@ -126,6 +134,66 @@ class Mokate extends React.Component {
             <h4>{this.props.languageObjectProp.data.mokate.mokasw.part4}</h4>
             <ul>
               {this.props.languageObjectProp.data.mokate.mokasw.part5.map((value, i) =>
+                <li key={i}>
+                  {value}
+                </li>
+              )}
+            </ul>
+          </div>
+        </Expand>
+        {/* mokatetogo */}
+        <AppBar
+          className="component-app-bar-header header-mokatetogo"
+          showMenuIconButton={false}
+          title={this.props.languageObjectProp.data.mokate.mokatetogo.title}
+          onClick={(e) => this.toggle(e, "mokatetogo")}
+          iconElementRight={<IconButton className=""><ArrowDown /></IconButton>}
+        />
+
+        <Expand className="expand-container" open={this.state.open4}>
+          <div className="component-text-container text-container-mokatetogo">
+            <p>{this.props.languageObjectProp.data.mokate.mokatetogo.part1}</p>
+            <h4>{this.props.languageObjectProp.data.mokate.mokatetogo.part2}</h4>
+            <ul>
+              {this.props.languageObjectProp.data.mokate.mokatetogo.part3.map((value, i) =>
+                <li key={i}>
+                  {value}
+                </li>
+              )}
+            </ul>
+            <h4>{this.props.languageObjectProp.data.mokate.mokatetogo.part4}</h4>
+            <ul>
+              {this.props.languageObjectProp.data.mokate.mokatetogo.part5.map((value, i) =>
+                <li key={i}>
+                  {value}
+                </li>
+              )}
+            </ul>
+          </div>
+        </Expand>
+        {/* mokacw */}
+        <AppBar
+          className="component-app-bar-header header-mokacw"
+          showMenuIconButton={false}
+          title={this.props.languageObjectProp.data.mokate.mokacw.title}
+          onClick={(e) => this.toggle(e, "mokacw")}
+          iconElementRight={<IconButton className=""><ArrowDown /></IconButton>}
+        />
+
+        <Expand className="expand-container" open={this.state.open5}>
+          <div className="component-text-container text-container-mokacw">
+            <p>{this.props.languageObjectProp.data.mokate.mokacw.part1}</p>
+            <h4>{this.props.languageObjectProp.data.mokate.mokacw.part2}</h4>
+            <ul>
+              {this.props.languageObjectProp.data.mokate.mokacw.part3.map((value, i) =>
+                <li key={i}>
+                  {value}
+                </li>
+              )}
+            </ul>
+            <h4>{this.props.languageObjectProp.data.mokate.mokacw.part4}</h4>
+            <ul>
+              {this.props.languageObjectProp.data.mokate.mokacw.part5.map((value, i) =>
                 <li key={i}>
                   {value}
                 </li>

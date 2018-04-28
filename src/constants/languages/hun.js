@@ -164,6 +164,29 @@ export const dataHun = {
         part4: `ALKALMAZÁSA:`,
         part5: [`ebéd koncentrátumok (instant levesek és mártások, burgonyapürével)`, `mártások / hideg mártások`, `öntetek`]
       },
+      mokatetogo: {
+        title: `TERMÉKEK ITALAUTOMATÁKHOZ | MOKATE TO GO`,
+        part1: `A MOKATE TO GO egy olyan termékcsoport, amelyet az ital automatákhoz terveztek. A
+        technológia lehetővé teszi az automaták fizika – kémiai paramétereit.`,
+        part2: `FUNKCIONALITÁS:`,
+        part3: [`sűrűség`, `öntési kapacitás`, `homogenitás`, `nedvesedés`, `oldhatóság`, `habmagasság`, `kényelmes logisztika`],
+        part4: `ALKALMAZÁSA:`,
+        part5: [`kávé`, `fehér kávé`, `cappucino`, `automata krémesítők`, `csokoládé`, `csokoládé alap`, `tea italok`, `leves`]
+      },
+      mokacw: {
+        title: `KRÉMESĺTŐK MELEGITALOKHOZ | MOKA CW`,
+        part1: `A MOKA CW krémesítők a késztermékek csoportjába tartoznak, amelyek fő funkciója a fehérítő
+        hatás alkalmazása, ugyanakkor javítják a késztermék ízét. A MOKA CW krémet 15 – 45% -os
+        növényi zsír alapon állítják elő, a tejfehérjék és adalékanyagok a hideg és meleg italokban
+        stabilitást biztosítanak, kemény vízzel vagy különböző pH-jú stabilitással. Habár a MOKA CW
+        krém kevesebb, mint a felét növényi zsirok és a tejfehérjék alkotják, ezek a legmagasabb
+        minőségű növényi zsírok és tejfehérjék, amelyek hatással vannak az íz teljességére, a tejszínre,
+        a tejtermelésre és az ital konzisztenciájára.`,
+        part2: `FUNKCIONALITÁS:`,
+        part3: [`kiváló oldhatóság és nedvesíthetőség`, `a por magasabb oldódása`, `az ömlesztett sűrűség széles spektruma (legfeljebb 650 g/l)`, `a részecskeméret beállításának lehetősége`],
+        part4: `ALKALMAZÁSA:`,
+        part5: [`kávéitalok`, `cappuccino`, `latte`, `frappe`, `tea`, `csokoládéitalok`]
+      },
       title: `Mokate`
     },
     contact: {

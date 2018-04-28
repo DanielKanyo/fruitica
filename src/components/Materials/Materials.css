@@ -90,6 +90,52 @@
   pointer-events: none;
 }
 
+.header-mokatetogo {
+  background-color: #b70082 !important;
+  cursor: pointer;
+}
+
+.text-container-mokatetogo {
+  border: 1px solid #b70082;
+}
+
+.header-mokatetogo>div {
+  margin-top: 0px !important;
+  pointer-events: none;
+}
+
+.header-mokatetogo>div>button {
+  height: 44px !important;
+}
+
+.header-mokatetogo h1 {
+  font-size: 16px !important;
+  pointer-events: none;
+}
+
+.header-mokacw {
+  background-color: #209ecf !important;
+  cursor: pointer;
+}
+
+.text-container-mokacw {
+  border: 1px solid #209ecf;
+}
+
+.header-mokacw>div {
+  margin-top: 0px !important;
+  pointer-events: none;
+}
+
+.header-mokacw>div>button {
+  height: 44px !important;
+}
+
+.header-mokacw h1 {
+  font-size: 16px !important;
+  pointer-events: none;
+}
+
 @media only screen and (max-width: 900px) {
   .component-header-img {
     margin-bottom: 15px;

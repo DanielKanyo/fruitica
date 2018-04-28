@@ -161,6 +161,30 @@ export const dataEng = {
         part4: `APPLICATIONS:`,
         part5: [`lunch concentrates (instant soups and sauces, mashed potatoes)`, `dips / cold sauces`, `dressings`]
       },
+      mokatetogo: {
+        title: `VENDING PRODUCTS | MOKATE TO GO`,
+        part1: `MOKATE TO GO is a group of products designed in order to work well in vending machines. The
+        technology allows  for physico-chemical parameters of vending products.`,
+        part2: `FUNCTIONALITY:`,
+        part3: [`bulk density`, `pouring capacity`, `homogeneity`, `wettability`, `solubility`, `foam height`, `convenient logistics`],
+        part4: `APPLICATIONS:`,
+        part5: [`coffee`, `white coffee`, `cappucino`, `vending creamers`, `chocolate`, `chocolate base`, `tea beverages`, `soup`]
+      },
+      mokacw: {
+        title: `CREAMERS FOR BEVERAGES | MOKA CW`,
+        part1: `Creamers for beverages MOKA CW belong to group of instant products, which main function is
+        to apply whitening effect and at the same time improve the taste of the finished product.
+        Our MOKA CW creamers are produced on vegetable fat base (with a content of 15 to 45 %),
+        milk proteins and additives present in the creamers provide stability both in cold and hot drinks,
+        stability in hard water or various pH. Although vegetable fat and milk proteins are less than half of
+        percentage of the creamers MOKA CW, they are various kinds of vegetable fats and milk protein
+        of highest quality that effect the fullness of taste, creaming, milkiness and  consistency of the
+        drink.`,
+        part2: `FUNCTIONALITY:`,
+        part3: [`excellent solubility and wettability`, `high powder flowability`, `broad spectrum of bulk density (max. 650g/l)`, `possibility of adjusting the particle size`],
+        part4: `APPLICATIONS:`,
+        part5: [`coffee drinks`, `cappuccino`, `latte`, `frappe`, `tea`, `chocolate drinks`]
+      },
       title: `Mokate`
     },
     contact: {
