@@ -1,30 +1,30 @@
 export const dataEng = {
   data: {
     menuItems: [{
-        title: "O Nama",
+        title: "About us",
         item1: "Fruitica",
-        item2: "Naša misija",
-        item3: "Vesti",
-        item4: "Galerija",
-        item5: "Projekti",
-        subItem1: "BGA – Kupovina nove poljoprivredne mašine",
+        item2: "Our mission",
+        item3: "News",
+        item4: "Gallery",
+        item5: "Projects",
+        subItem51: "BGA – Purchase of new agricultural machinery",
         drawerTitle: "Menu"
       },
       {
-        title: "Proizvodi",
-        item1: "Wild",
-        item2: "Agrana",
-        item3: "Mprofood",
+        title: "Products",
+        item1: "Foodstuffs for food industry",
+        item2: "Consumer products",
+        item3: "Agricultural production",
         subItem11: "Wild",
         subItem12: "Mokate",
         subItem13: "Supperfood",
         subItem14: "Mprofood",
       },
       {
-        title: "Karrier"
+        title: "Career"
       },
       {
-        title: "Kontakt"
+        title: "Contact"
       }
     ],
     languages: ["HUN", "SRB", "ENG"],
@@ -147,6 +147,19 @@ export const dataEng = {
         part5: [`whipping time < 3 min`, `good increase in volume > 150%`, `product stability at room temperature`, `improvement in creaminess and full taste of the finished product`],
         part6: `APPLICATIONS:`,
         part7: [`whipped cream substitutes`, `cold desserts`, `ice-cream`, `puddings`, `creams`, `mousses`, `shakes`, `dips`, `dressings`]
+      },
+      mokasw: {
+        title: `CREAMERS FOR SOUPS AND SAUCES | MOKA SW`,
+        part1: `Creamers for soups and sauces MOKA SW are products of spray drying which are source of
+        emulsified vegetable fat powder that are widely used as semi products in soups and instant
+        sauces. Many kinds of vegetable fat are used to produce MOKA SW  creamers, milkiness and
+        higher stability of product is obtained by introducing source of stabilized milk protein to the
+        recipe. Stability of our products in instant products during their preparation is provided by addition
+        of stabilizing agents and emulsifiers.`,
+        part2: `FUNCTIONALITY:`,
+        part3: [`improvement of creaming and taste of instant dishes`, `improvement of taste and aroma perception`, `proper intensity of whitening effect in the product`, `influence on the consistency of the finished product`],
+        part4: `APPLICATIONS:`,
+        part5: [`lunch concentrates (instant soups and sauces, mashed potatoes)`, `dips / cold sauces`, `dressings`]
       },
       title: `Mokate`
     },

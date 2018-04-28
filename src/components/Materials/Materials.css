@@ -26,12 +26,12 @@
   border: 1px solid #feb900;
 }
 
-.header-mokacb > div {
+.header-mokacb>div {
   margin-top: 0px !important;
   pointer-events: none;
 }
 
-.header-mokacb > div > button {
+.header-mokacb>div>button {
   height: 44px !important;
 }
 
@@ -53,12 +53,12 @@
   border: 1px solid #f70000;
 }
 
-.header-mokaero > div {
+.header-mokaero>div {
   margin-top: 0px !important;
   pointer-events: none;
 }
 
-.header-mokaero > div > button {
+.header-mokaero>div>button {
   height: 44px !important;
 }
 
@@ -67,9 +67,35 @@
   pointer-events: none;
 }
 
+.header-mokasw {
+  background-color: #aa0000 !important;
+  cursor: pointer;
+}
+
+.text-container-mokasw {
+  border: 1px solid #aa0000;
+}
+
+.header-mokasw>div {
+  margin-top: 0px !important;
+  pointer-events: none;
+}
+
+.header-mokasw>div>button {
+  height: 44px !important;
+}
+
+.header-mokasw h1 {
+  font-size: 16px !important;
+  pointer-events: none;
+}
+
 @media only screen and (max-width: 900px) {
   .component-header-img {
     margin-bottom: 15px;
     height: 150px;
+  }
+  .expand-container {
+    margin-bottom: 15px;
   }
 }

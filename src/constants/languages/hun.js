@@ -151,6 +151,19 @@ export const dataHun = {
         part6: `ALKALMAZÁSA:`,
         part7: [`tejszínhab helyettesítő`, `hideg desszertek`, `jégkrém`, `pudingok`, `krémek`, `habok`, `turmixok`, `mártogatós`, `öntet`]
       },
+      mokasw: {
+        title: `KRÉMESĺTŐK LEVESEKHEZ ÉS SZÓSZOKHOZ | MOKA SW`,
+        part1: `A MOKA SW krémesítők levesekhez és szószokhoz porlasztva, szárítással előállított termékek,
+        amelyek emulgeált növényi zsírporok forrásául szolgálnak, és amelyeket főként levesek és
+        instant mártások formájában használnak. Sokféle növényi zsírt használnak a MOKA SW
+        krémtermékek előállításához, a termék krémessége és magasabb stabilitása a már stabilizált
+        tejfehérje forrásának bevezetésével érhető el. Késztermékeink stabilitását előállításuk során
+        stabilizáló szerek és emulgeálószerek adagolásával állítjuk elő.`,
+        part2: `FUNKCIONALITÁS:`,
+        part3: [`a késztermékek finomításának és ízének javítása`, `az ízek és aromák javulása`, `a termék fehérítő hatásának megfelelő intenzitása`, `befolyásolja a késztermék konzisztenciáját`],
+        part4: `ALKALMAZÁSA:`,
+        part5: [`ebéd koncentrátumok (instant levesek és mártások, burgonyapürével)`, `mártások / hideg mártások`, `öntetek`]
+      },
       title: `Mokate`
     },
     contact: {

@@ -10,7 +10,8 @@ class Mokate extends React.Component {
 
   state = {
     open1: false,
-    open2: false
+    open2: false,
+    open3: false,
   };
 
   toggle = (e, val) => {
@@ -26,11 +27,12 @@ class Mokate extends React.Component {
       case "mokacb":
         this.setState(prevState => ({ open1: !prevState.open1 }));
         break;
-
       case "mokaero":
         this.setState(prevState => ({ open2: !prevState.open2 }));
         break;
-
+      case "mokasw":
+        this.setState(prevState => ({ open3: !prevState.open3 }));
+        break;
       default:
         break;
     }
@@ -39,7 +41,7 @@ class Mokate extends React.Component {
   render() {
     return (
       <div className="Component Mokate">
-
+        {/* mokacb */}
         <AppBar
           className="component-app-bar-header header-mokacb"
           showMenuIconButton={false}
@@ -69,7 +71,7 @@ class Mokate extends React.Component {
             </ul>
           </div>
         </Expand>
-
+        {/* mokaero */}
         <AppBar
           className="component-app-bar-header header-mokaero"
           showMenuIconButton={false}
@@ -94,6 +96,36 @@ class Mokate extends React.Component {
             <h4>{this.props.languageObjectProp.data.mokate.mokaero.part6}</h4>
             <ul>
               {this.props.languageObjectProp.data.mokate.mokaero.part7.map((value, i) =>
+                <li key={i}>
+                  {value}
+                </li>
+              )}
+            </ul>
+          </div>
+        </Expand>
+        {/* mokasw */}
+        <AppBar
+          className="component-app-bar-header header-mokasw"
+          showMenuIconButton={false}
+          title={this.props.languageObjectProp.data.mokate.mokasw.title}
+          onClick={(e) => this.toggle(e, "mokasw")}
+          iconElementRight={<IconButton className=""><ArrowDown /></IconButton>}
+        />
+
+        <Expand className="expand-container" open={this.state.open3}>
+          <div className="component-text-container text-container-mokasw">
+            <p>{this.props.languageObjectProp.data.mokate.mokasw.part1}</p>
+            <h4>{this.props.languageObjectProp.data.mokate.mokasw.part2}</h4>
+            <ul>
+              {this.props.languageObjectProp.data.mokate.mokasw.part3.map((value, i) =>
+                <li key={i}>
+                  {value}
+                </li>
+              )}
+            </ul>
+            <h4>{this.props.languageObjectProp.data.mokate.mokasw.part4}</h4>
+            <ul>
+              {this.props.languageObjectProp.data.mokate.mokasw.part5.map((value, i) =>
                 <li key={i}>
                   {value}
                 </li>
