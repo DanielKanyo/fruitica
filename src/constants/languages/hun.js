@@ -187,6 +187,30 @@ export const dataHun = {
         part4: `ALKALMAZÁSA:`,
         part5: [`kávéitalok`, `cappuccino`, `latte`, `frappe`, `tea`, `csokoládéitalok`]
       },
+      mokafp: {
+        title: `MAGAS ZSĺRTARTALMÚ POR | MOKA FP`,
+        part1: `A magas zsírtartalmú por MOKA FP a nagy mennyiségű növényi zsírtartalmú instant por
+        termékek csoportjába tartozik (70 – 80%). A termékeket a porlasztva szárítás új technológiája
+        alkotja, amely lehetővé teszi, hogy megfelelően emulgeált zsírt kapjunk a hordozóhoz. Magas
+        zsírtartalmú porunk tejfehérjével és egyéb adalékokkal gazdagodik, amelyek befolyásolják az
+        alkalmazás tulajdonságát.`,
+        part2: `FUNKCIONALITÁS:`,
+        part3: [`a késztermék elsődleges zsírforrása`, `hatása a késztermék szerkezetére, viszkozitására és konzisztenciájára`, `az ízek és aromák javulása`, `a termék fehérítő hatásának megfelelő intenzitása`, `könnyen tárolható és üzemeltethető`, `stabil termék hosszabb eltarthatósággal`, `vízoldható oldatok`],
+        part4: `ALKALMAZÁSA:`,
+        part5: [`fagylaltkeverékek`, `sütőipari keverékek`, `cukrászati keverékek`, `ebéd koncentrátumok, instant levesek és mártások`]
+      },
+      mokamm: {
+        title: `TEJPÓTLÓ | MOKA MM`,
+        part1: `A tejpótló MOKA MM a legmagasabb minőségű nyerstej és növényi zsírok (pálma vagy kókusz)
+        kombinációja. A folyékony összetevők és a porlasztva szárítás után a kész termékek kiváló
+        minőségűek és tökéletesek.
+        A MILK MIX helyettesítőit széles körben használják fagylalt, sütőipari és cukrászipari termékek
+        előállítására.`,
+        part2: `FUNKCIONALITÁS:`,
+        part3: [`különböző fehérjetartalmú tejcserélő`, `tejital könnyű előkészítés`, `a tehéntejhez hasonló krémesség és aroma`],
+        part4: `ALKALMAZÁSA:`,
+        part5:[`folyékony rekombináns tej`, `kondenzált rekombináns tej`, `jégkrém`, `ebéd koncentrátumok`, `joghurt`, `csokoládéitalok`, `kávéitalok`, `cappuccino`]
+      },
       title: `Mokate`
     },
     contact: {

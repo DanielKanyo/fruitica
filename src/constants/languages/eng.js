@@ -185,6 +185,28 @@ export const dataEng = {
         part4: `APPLICATIONS:`,
         part5: [`coffee drinks`, `cappuccino`, `latte`, `frappe`, `tea`, `chocolate drinks`]
       },
+      mokafp: {
+        title: `HIGH FAT POWDER | MOKA FP`,
+        part1: `High fat powder MOKA FP belong to group of powder instant products with high content of
+        vegetable fat (from 70 to 80 %). The products are formed by new technology of spray drying,
+        which allows to obtain properly emulsified fat combined with the carrier. Our high fat powders are
+        enriched with milk protein and other additives that affect their application properties.`,
+        part2: `FUNCTIONALITY:`,
+        part3: [`primary source of fat in the finished product`, `effect on structure, viscosity and consistency of the finished product`, `improvement of taste and aroma perception`, `proper intensity of whitening effect in the product`, `easy to store and operate`, `stable product with extended shelf life`, `product soluble in water solutions`],
+        part4: `APPLICATIONS:`,
+        part5: [`ice cream mixes`, `bakery mixes`, `pastry mixes`, `lunch concentrates, instant soups and sauces`]
+      },
+      mokamm: {
+        title: `MILK REPLACERS | MOKA MM`,
+        part1: `Milk replacer MOKA MM is a combination of the highest quality  raw milk and vegetable fats
+        (palm or coconut). Due to the combining of the liquid ingredients and then spray drying, the ready
+        products are of highest quality and perfect properties.
+        Our MILK MIX replacers are widely used in production of ice-cream,  bakery and pastry industry.`,
+        part2: `FUNCTIONALITY:`,
+        part3: [`milk replacer with different content of protein`, `milk drink easy to prepare`, `creaminess and aroma comparable to cow's milk`],
+        part4: `APPLICATIONS:`,
+        part5:[`liquid recombinant milk`, `condensed recombinant milk`, `ice cream`, `lunch concentrates`, `yogurt`, `chocolate drinks`, `coffee drinks`, `cappucino`]
+      },
       title: `Mokate`
     },
     contact: {

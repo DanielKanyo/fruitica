@@ -136,6 +136,52 @@
   pointer-events: none;
 }
 
+.header-mokafp {
+  background-color: #00d926 !important;
+  cursor: pointer;
+}
+
+.text-container-mokafp {
+  border: 1px solid #00d926;
+}
+
+.header-mokafp>div {
+  margin-top: 0px !important;
+  pointer-events: none;
+}
+
+.header-mokafp>div>button {
+  height: 44px !important;
+}
+
+.header-mokafp h1 {
+  font-size: 16px !important;
+  pointer-events: none;
+}
+
+.header-mokamm {
+  background-color: #008f1a !important;
+  cursor: pointer;
+}
+
+.text-container-mokamm {
+  border: 1px solid #008f1a;
+}
+
+.header-mokamm>div {
+  margin-top: 0px !important;
+  pointer-events: none;
+}
+
+.header-mokamm>div>button {
+  height: 44px !important;
+}
+
+.header-mokamm h1 {
+  font-size: 16px !important;
+  pointer-events: none;
+}
+
 @media only screen and (max-width: 900px) {
   .component-header-img {
     margin-bottom: 15px;
