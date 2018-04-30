@@ -233,9 +233,11 @@ class Navigation extends React.Component {
                       {this.state.languageObject.data.menuItems[1].subItem12}
                     </MenuItem>
                   </Link>
-                  <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
-                    {this.state.languageObject.data.menuItems[1].subItem13}
-                  </MenuItem>
+                  <Link to={routes.SUPPERFOOD} onClick={() => { this.hideMenu() }}>
+                    <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
+                      {this.state.languageObject.data.menuItems[1].subItem13}
+                    </MenuItem>
+                  </Link>
                   <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
                     {this.state.languageObject.data.menuItems[1].subItem14}
                   </MenuItem>

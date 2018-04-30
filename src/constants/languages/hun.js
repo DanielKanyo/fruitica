@@ -213,6 +213,21 @@ export const dataHun = {
       },
       title: `Mokate`
     },
+    supperfood: {
+      title: `Supperfood`,
+      part1: `Földimogyoróvaj`,
+      part2: `A földimogyoró a diófélék csoportjába sorolható, és a növény érdekessége, hogy a virágok
+      megtermékenyülés után a földbe húzódnak és ott nevelik magvaikat. A betakarítás idején a
+      növényeket a laza (homokos) talajból kihúzzák, és fejjel lefelé száraz helyre teszik, majd
+      betakarítják. A földimogyoróhéjat a származási országban eltávolítják, és a földimogyorót
+      ellenőrzött körülmények között Hollandiába szállítják. A földimogyoró csak aflatoxin
+      tanúsítvánnyal vásárolható meg.`,
+      part3: `Termékcsoportok`,
+      part4: `Földimogyoróvaj`,
+      part5: `A legjobb földimogyoró vaj elkészítéséhez csak argentin eredetű földimogyorót használunk.
+      A földimogyorót az Ön kívánsága szerint pörköljük világosra vagy sötétre, majd ezt követően
+      (megtisztítva vagy anélkül) durvábbra vagy finomabbra őröljük tovább.`
+    },
     contact: {
       title: `Kapcsolat`
     }

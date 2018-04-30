@@ -209,6 +209,20 @@ export const dataSrb = {
       },
       title: `Mokate`
     },
+    supperfood: {
+      title: `Supperfood`,
+      part1: `Peanut paste`,
+      part2: `Peanuts, also known as ground nuts, are fruits that grow on low peanut plants which grow
+      and subsequently grow into the ground. At harvest time, the plants are pulled out of the
+      loose (sandy) soil and are put upside down to dry and then harvest them. The peanut shells are removed in the country of origin and the
+      peanuts are transported to the Netherlands under controlled conditions. Peanuts are only
+      bought with an aflatoxin certificate.`,
+      part3: `Product groups`,
+      part4: `Peanut paste`,
+      part5: `To make the best peanut paste we use peanuts from Argentine origin only. According to
+      your wish the peanuts are roasted light to dark and thereafter grinded (with or without skin)
+      from coarse to very fine.`
+    },
     contact: {
       title: `Kontakt`
     }

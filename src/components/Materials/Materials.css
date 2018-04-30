@@ -1,10 +1,23 @@
 .component-header-img {
-  background: url('../../images/juice.jpg');
-  background-position: center;
   background-size: 100%;
   border: 1px solid #08b132;
   height: 180px;
   margin-bottom: 30px;
+}
+
+.wild-img {
+  background: url('../../images/juice.jpg');
+  background-position: center;
+}
+
+.supperfood-img {
+  background: url('../../images/peanut.jpg');
+  background-position: 50% 70%;
+}
+
+.mokate-img {
+  background: url('../../images/coffee.jpg');
+  background-position: 50% 70%;
 }
 
 .expand-container {

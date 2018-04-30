@@ -8,7 +8,7 @@ class Wild extends React.Component {
     return (
       <div className="Component Wild">
 
-        <div className="component-header-img"></div>
+        <div className="component-header-img wild-img"></div>
         
         <AppBar
           className="component-app-bar-header"

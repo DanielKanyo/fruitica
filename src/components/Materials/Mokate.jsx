@@ -57,6 +57,7 @@ class Mokate extends React.Component {
   render() {
     return (
       <div className="Component Mokate">
+        <div className="component-header-img mokate-img"></div>
         {/* mokacb */}
         <AppBar
           className="component-app-bar-header header-mokacb"

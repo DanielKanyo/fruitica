@@ -96,7 +96,7 @@ export const dataEng = {
       uspeha kompanije na viziji proizvodnje bezalkoholnih napitaka isključivo na bazi prirodnih sastojaka.`,
       part2: `WILD je danas jedan od vodećih svetskih dobavljača prirodnih aroma za prehrambenu i industriju bezalkoholnih
       pića i najveća kompanija za aromatizovane sastojke na svetu.`,
-      part3: `&quot;Mi stvaramo sjajan ukus&quot; je WILD-ov moto za hranu i bezalkoholna pića širom sveta. Zahvaljujući brojnim
+      part3: `"Mi stvaramo sjajan ukus" je WILD-ov moto za hranu i bezalkoholna pića širom sveta. Zahvaljujući brojnim
       proizvodnim odeljenjima u Evropi, Severnoj Americi i Kini kao i filijalima u više od 70 zemalja, WILD prepoznaje
       specifične zahteve tržišta prehrane i bezalkoholnih pića širom sveta. Širenje inovacija i anticipiranje potrebe
       kupaca su nosivi stubovi uspeha kompanije WILD. Međunarodna razmena stručnosti među zaposlenima
@@ -208,6 +208,20 @@ export const dataEng = {
         part5:[`liquid recombinant milk`, `condensed recombinant milk`, `ice cream`, `lunch concentrates`, `yogurt`, `chocolate drinks`, `coffee drinks`, `cappucino`]
       },
       title: `Mokate`
+    },
+    supperfood: {
+      title: `Supperfood`,
+      part1: `Peanut paste`,
+      part2: `Peanuts, also known as ground nuts, are fruits that grow on low peanut plants which grow
+      and subsequently grow into the ground. At harvest time, the plants are pulled out of the
+      loose (sandy) soil and are put upside down to dry and then harvest them. The peanut shells are removed in the country of origin and the
+      peanuts are transported to the Netherlands under controlled conditions. Peanuts are only
+      bought with an aflatoxin certificate.`,
+      part3: `Product groups`,
+      part4: `Peanut paste`,
+      part5: `To make the best peanut paste we use peanuts from Argentine origin only. According to
+      your wish the peanuts are roasted light to dark and thereafter grinded (with or without skin)
+      from coarse to very fine.`
     },
     contact: {
       title: `Kontakt`
