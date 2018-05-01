@@ -199,6 +199,7 @@
   .component-header-img {
     margin-bottom: 15px;
     height: 150px;
+    background-size: 100%;
   }
   .expand-container {
     margin-bottom: 15px;
