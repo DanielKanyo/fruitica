@@ -69,23 +69,26 @@ class Mokate extends React.Component {
 
         <Expand className="expand-container" open={this.state.open1}>
           <div className="component-text-container text-container-mokacb">
-            <p>{this.props.languageObjectProp.data.mokate.mokacb.part1}</p>
-            <h4>{this.props.languageObjectProp.data.mokate.mokacb.part2}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokacb.part3.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
-            <h4>{this.props.languageObjectProp.data.mokate.mokacb.part4}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokacb.part5.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
+            <div className="background-image mokacb-img"></div>
+            <div className="text">
+              <p>{this.props.languageObjectProp.data.mokate.mokacb.part1}</p>
+              <h4>{this.props.languageObjectProp.data.mokate.mokacb.part2}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokacb.part3.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+              <h4>{this.props.languageObjectProp.data.mokate.mokacb.part4}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokacb.part5.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+            </div>
           </div>
         </Expand>
         {/* mokaero */}
@@ -99,25 +102,28 @@ class Mokate extends React.Component {
 
         <Expand className="expand-container" open={this.state.open2}>
           <div className="component-text-container text-container-mokaero">
-            <p>{this.props.languageObjectProp.data.mokate.mokaero.part1}</p>
-            <p>{this.props.languageObjectProp.data.mokate.mokaero.part2}</p>
-            <p>{this.props.languageObjectProp.data.mokate.mokaero.part3}</p>
-            <h4>{this.props.languageObjectProp.data.mokate.mokaero.part4}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokaero.part5.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
-            <h4>{this.props.languageObjectProp.data.mokate.mokaero.part6}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokaero.part7.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
+            <div className="background-image mokaero-img"></div>
+            <div className="text">
+              <p>{this.props.languageObjectProp.data.mokate.mokaero.part1}</p>
+              <p>{this.props.languageObjectProp.data.mokate.mokaero.part2}</p>
+              <p>{this.props.languageObjectProp.data.mokate.mokaero.part3}</p>
+              <h4>{this.props.languageObjectProp.data.mokate.mokaero.part4}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokaero.part5.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+              <h4>{this.props.languageObjectProp.data.mokate.mokaero.part6}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokaero.part7.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+            </div>
           </div>
         </Expand>
         {/* mokasw */}
@@ -131,23 +137,26 @@ class Mokate extends React.Component {
 
         <Expand className="expand-container" open={this.state.open3}>
           <div className="component-text-container text-container-mokasw">
-            <p>{this.props.languageObjectProp.data.mokate.mokasw.part1}</p>
-            <h4>{this.props.languageObjectProp.data.mokate.mokasw.part2}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokasw.part3.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
-            <h4>{this.props.languageObjectProp.data.mokate.mokasw.part4}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokasw.part5.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
+            <div className="background-image mokasw-img"></div>
+            <div className="text">
+              <p>{this.props.languageObjectProp.data.mokate.mokasw.part1}</p>
+              <h4>{this.props.languageObjectProp.data.mokate.mokasw.part2}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokasw.part3.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+              <h4>{this.props.languageObjectProp.data.mokate.mokasw.part4}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokasw.part5.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+            </div>
           </div>
         </Expand>
         {/* mokatetogo */}
@@ -161,23 +170,26 @@ class Mokate extends React.Component {
 
         <Expand className="expand-container" open={this.state.open4}>
           <div className="component-text-container text-container-mokatetogo">
-            <p>{this.props.languageObjectProp.data.mokate.mokatetogo.part1}</p>
-            <h4>{this.props.languageObjectProp.data.mokate.mokatetogo.part2}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokatetogo.part3.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
-            <h4>{this.props.languageObjectProp.data.mokate.mokatetogo.part4}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokatetogo.part5.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
+            <div className="background-image mokatetogo-img"></div>
+            <div className="text">
+              <p>{this.props.languageObjectProp.data.mokate.mokatetogo.part1}</p>
+              <h4>{this.props.languageObjectProp.data.mokate.mokatetogo.part2}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokatetogo.part3.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+              <h4>{this.props.languageObjectProp.data.mokate.mokatetogo.part4}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokatetogo.part5.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+            </div>
           </div>
         </Expand>
         {/* mokacw */}
@@ -191,23 +203,26 @@ class Mokate extends React.Component {
 
         <Expand className="expand-container" open={this.state.open5}>
           <div className="component-text-container text-container-mokacw">
-            <p>{this.props.languageObjectProp.data.mokate.mokacw.part1}</p>
-            <h4>{this.props.languageObjectProp.data.mokate.mokacw.part2}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokacw.part3.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
-            <h4>{this.props.languageObjectProp.data.mokate.mokacw.part4}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokacw.part5.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
+            <div className="background-image mokacw-img"></div>
+            <div className="text">
+              <p>{this.props.languageObjectProp.data.mokate.mokacw.part1}</p>
+              <h4>{this.props.languageObjectProp.data.mokate.mokacw.part2}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokacw.part3.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+              <h4>{this.props.languageObjectProp.data.mokate.mokacw.part4}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokacw.part5.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+            </div>
           </div>
         </Expand>
         {/* mokafp */}
@@ -221,23 +236,26 @@ class Mokate extends React.Component {
 
         <Expand className="expand-container" open={this.state.open6}>
           <div className="component-text-container text-container-mokafp">
-            <p>{this.props.languageObjectProp.data.mokate.mokafp.part1}</p>
-            <h4>{this.props.languageObjectProp.data.mokate.mokafp.part2}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokafp.part3.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
-            <h4>{this.props.languageObjectProp.data.mokate.mokafp.part4}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokafp.part5.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
+            <div className="background-image mokafp-img"></div>
+            <div className="text">
+              <p>{this.props.languageObjectProp.data.mokate.mokafp.part1}</p>
+              <h4>{this.props.languageObjectProp.data.mokate.mokafp.part2}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokafp.part3.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+              <h4>{this.props.languageObjectProp.data.mokate.mokafp.part4}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokafp.part5.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+            </div>
           </div>
         </Expand>
         {/* mokamm */}
@@ -251,23 +269,26 @@ class Mokate extends React.Component {
 
         <Expand className="expand-container" open={this.state.open7}>
           <div className="component-text-container text-container-mokamm">
-            <p>{this.props.languageObjectProp.data.mokate.mokamm.part1}</p>
-            <h4>{this.props.languageObjectProp.data.mokate.mokamm.part2}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokamm.part3.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
-            <h4>{this.props.languageObjectProp.data.mokate.mokamm.part4}</h4>
-            <ul>
-              {this.props.languageObjectProp.data.mokate.mokamm.part5.map((value, i) =>
-                <li key={i}>
-                  {value}
-                </li>
-              )}
-            </ul>
+            <div className="background-image mokamm-img"></div>
+            <div className="text">
+              <p>{this.props.languageObjectProp.data.mokate.mokamm.part1}</p>
+              <h4>{this.props.languageObjectProp.data.mokate.mokamm.part2}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokamm.part3.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+              <h4>{this.props.languageObjectProp.data.mokate.mokamm.part4}</h4>
+              <ul>
+                {this.props.languageObjectProp.data.mokate.mokamm.part5.map((value, i) =>
+                  <li key={i}>
+                    {value}
+                  </li>
+                )}
+              </ul>
+            </div>
           </div>
         </Expand>
 
