@@ -230,7 +230,6 @@
 .mokasw-img {
   background-image: url('../../images/mokasw.jpg');
   background-position: 0% 100%;
-  background-size: 90%;
 }
 
 .mokatetogo-img {
@@ -261,5 +260,9 @@
   }
   .expand-container {
     margin-bottom: 15px;
+  }
+  .background-image {
+    margin: -12px -18px;
+    opacity: 0.5;
   }
 }
