@@ -37,14 +37,22 @@
 }
 
 .mokate-img {
-  background: url('../../images/coffee.jpg');
-  background-position: 50% 70%;
+  background-color: white;
+  background-image: url('../../images/mokate_logo.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  height: 130px;
 }
 
 .expand-container {
   position: relative;
   transition: height 200ms ease-in-out !important;
   margin-bottom: 20px;
+}
+
+.expand-container:last-of-type {
+  margin-bottom: 0px;
 }
 
 .component-app-bar-header {
@@ -250,6 +258,10 @@
 .mokamm-img {
   background-image: url('../../images/mokamm.jpg');
   background-position: 0% 100%;
+}
+
+.component-text-container h4:first-of-type {
+  margin-top: 0px !important;
 }
 
 @media only screen and (max-width: 900px) {
