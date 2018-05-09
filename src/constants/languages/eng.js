@@ -29,44 +29,46 @@ export const dataEng = {
     ],
     languages: ["HUN", "SRB", "ENG"],
     companyData: {
-      part1: `Kompanija Fruitica d.o.o. sa sedištem u Čantaviru osnovana je 1996. godine kao generalni zastupnik nemačke
-        kompanije WILD i od samog osnivanja bavi se uvozom i distribucijom industrijskih proizvoda za potrebe
-        proizvodnje prehrambenih proizvoda i bezalkoholnih napitaka (voćni i povrćni preparati, arome, ekstrakti,
-        prirodne boje, koncentrati, zaslađivači, specijalni sastojci).`,
-      part2: `2002. godine kompanija je proširila delatnost na uvoz i distribuciju gotovih proizvoda.`,
-      part3: `2008. godine su uvedene HACCP i ISO 9001 standarde.`,
-      part4: `2010. godine je počela proizvodnju primarnih poljoprivrednih proizvoda.`,
-      part5: `Za potrebe skladištenja i distribucije kompanija raspolaže savremenim centralnim skladišnim prostorom od 600
-        m², koji se nalazi u Čantaviru blizu autoputa E75.`
+      title: `FRUITICA (SRB, HUN, ENG)`,
+      part1: `Company Fruitica d.o.o. based in Čantavir, was founded in 1996 as the general representative of the German
+      company WILD and since it’s founding has been engaged in importing and distributing industrial products for the
+      needs of the production of food products and soft drinks (fruit and vegetable preparations, aromas, extracts,
+      natural colors, concentrates, sweeteners, special ingredients).`,
+      part2: `In 2002, the company expanded it’s activities to import and distribution of finished products.`,
+      part3: `In 2008, HACCP and ISO 9001 standards were introduced.`,
+      part4: `In 2010, the production of primary agricultural products started.`,
+      part5: `For storage and distribution purposes, the company has a modern central storage space of 600 m², located in
+      Chantavir near the E75 highway.`
     },
     mission: {
-      part1: `Naša misija je da kontinuirano i konzistentno zadovoljavamo potrebe potrošača i poslovnih partnera, obezbedimo
-      okruženje u kome će naši zaposleni da teže uspesima u atmosferi koja podstiče njihov razvoj, da poboljšavamo
-      način života i radimo za dobrobit društva u kome živimo svakodnevni život.`,
-      part2: `Politika Kvaliteta I Bezbednosti Proizvoda`,
-      part3: `Samo zadovoljni korisnici se vraćaju ponovnoj kupovini - a redovnom kupovinom naših proizvoda osiguravaju
-      dugoročni opstanak kompanije &quot;Fruitica d.o.o.“ a samim tim i stabilnu egzistencijalnu osnovu svim zaposlenima u
-      kompaniji.`,
-      part4: `Zato zadovoljenje ne samo zahteva, već i neiskazanih očekivanja korisnika, tj. osiguranje kvaliteta i bezbednosti
-      proizvoda je prioritetna obaveza zaposlenih na svim nivoima aktivnosti u kompaniji Fruitica d.o.o.`,
-      part5: `Ostvarenje navedenih ciljeva postiže se sprovođenjem sistema menadžmenta kvalitetom i bezbednošću
-      proizvoda u skladu sa zahtevima standarda ISO 9001:2008, BRC Global Standard for Food Safety Issue 5:2008 i
-      HACCP po CAC/RCP 1-1969, Rev. 4-2003., što podrazumeva:`,
-      part6: `poštovanje svih relevantnih propisa u vezi poslovanja preduzeća;`,
-      part7: `obavezu rukovodstva da određuje takve poslovne ciljeve koji podržavaju navedeno opredeljenje, i da
-      osiguraju takvo interno okruženje, u kojem zaposleni mogu u potpunosti da učestvuju u ostvarivanju
-      poslovnih ciljeva firme;`,
-      part8: `uključivanje svih zaposlenih u ostvarenje ciljeva firme;`,
-      part9: `stalnu težnju da se otkriju i zadovolje zahtevi i očekivanja korisnika u cilju njihovog zadovoljenja;`,
-      part10: `razumevanje i upravljanje aktivnostima kao procesima;`,
-      part11: `razumevanje, uvažavanje i korišćenje međusobnih veza različitih procesa, tj. sistemskim pristup u
-      efikasnijem i efektivnijem postizanju ciljeva;`,
-      part12: `svestan i neprekidan rad na poboljšavanju kako bezbednosti i kvaliteta proizvoda, tako i ukupnih
-      performansi organizacije;`,
-      part13: `odlučivanje na osnovu činjenica;`,
-      part14: `izgradnju uzajamno korisnih, partnerskih odnosa sa isporučiocima.`,
-      part15: `Generalni direktor i osnivač kompanije: Ištvan Berenji`,
-      part16: `Čantavir, 25.09.2008.`
+      part1: `Our mission is to continuously and consistently meet the needs of consumers and business partners, to provide
+      an environment in which our employees will strive for success in an atmosphere that encourages their
+      development, to improve the way of life and work for the benefit of the society in which we live our daily lives.`,
+      part2: `Product Quality and Security Policy`,
+      part3: `Only satisfied customers return to their purchase – regular purchase of our products ensures the long – term
+      survival of the company &quot;Fruitica d.o.o.&quot; and, therefore, a stable and existential basis for all the employees in the
+      company.`,
+      part4: `Therefore, satisfaction not only demands, but also unpublished user expectations of the users, quality assurance
+      and product safety is a priority obligation of employees at all levels of activity at Fruitica doo.`,
+      part5: `The achievement of these goals is achieved through the implementation of the quality management system and
+      the safety of products in accordance with the requirements of ISO 9001: 2008, BRC Global Standard for Food
+      Safety Issue 5: 2008 and HACCP by CAC / RCP 1-1969, Rev. 4-2003, which means:`,
+      part6: `compliance with all relevant regulations regarding business operations;`,
+      part7: `the responsibility of the management to determine such business goals that support that commitment,
+      and to provide such an internal environment, in which employees can fully participate in achieving
+      business goals of the company;`,
+      part8: `inclusion of all employees in achieving company goals;`,
+      part9: `a constant desire to discover and meet the demands and expectations of the users in order to satisfy
+      them;`,
+      part10: `understanding and managing activities as processes;`,
+      part11: `understanding, appreciating and using interconnections of different processes, systematic approach in
+      more efficient and effective achievement of goals;`,
+      part12: `conscious and continuous work on improving both the safety and quality of products as well as the
+      overall performance of the organization;`,
+      part13: `decision making based on facts;`,
+      part14: `building mutually beneficial, partner relationships with suppliers.`,
+      part15: `General director and founder: Istvan Berenyi`,
+      part16: `Čantavir, September 25, 2008`
     },
     competition1: {
       part1: `Kupovina nove poljoprivredne mašine / Bethlen Gábor Fond`,
@@ -92,30 +94,31 @@ export const dataEng = {
     },
     wild: {
       title: `Wild`,
-      part1: `1931. godine Rudolf Wild je osnovao kompaniju WILD u Heidelbergu, u Nemačkoj, zasnivajući temelje globalnog
-      uspeha kompanije na viziji proizvodnje bezalkoholnih napitaka isključivo na bazi prirodnih sastojaka.`,
-      part2: `WILD je danas jedan od vodećih svetskih dobavljača prirodnih aroma za prehrambenu i industriju bezalkoholnih
-      pića i najveća kompanija za aromatizovane sastojke na svetu.`,
-      part3: `"Mi stvaramo sjajan ukus" je WILD-ov moto za hranu i bezalkoholna pića širom sveta. Zahvaljujući brojnim
-      proizvodnim odeljenjima u Evropi, Severnoj Americi i Kini kao i filijalima u više od 70 zemalja, WILD prepoznaje
-      specifične zahteve tržišta prehrane i bezalkoholnih pića širom sveta. Širenje inovacija i anticipiranje potrebe
-      kupaca su nosivi stubovi uspeha kompanije WILD. Međunarodna razmena stručnosti među zaposlenima
-      osiguravaju WILD-u ranije prepoznavanje trendova i uvođenje vrhunskih inovacija u korist kupaca. Otprilike 2.500
-      zaposlenih širom sveta aktivno istražuju, proširuju, proizvode i prodaju.`,
-      part4: `Decenije iskustva u razvoju i trgovini prirodnim sastojcima osiguravaju WILD-ovim kupcima izbor i proizvode koji
-      će odoleti ispitu vremena.`,
-      part5: `WILD je vodeći proizvođač prirodnih sastojaka, njegov proizvodni portfejl prirodno-aromatičnih sastojaka
-      obuhvata kompletna rešenja kao što su sirovine za piće, poznati kao sistemi ukusa, i to voćni i povrćni preparati.`,
-      part6: `Pored toga WILD proizvodi individualne komponente kao što su arome i ekstrakti, prirodne boje, koncetrati,
-      zaslađivači i specijalni sastojci. WILD nudi kompletna rešenja za proizvodnju bezalkoholnih i alkoholnih pića,
-      mlečnih proizvoda, sladoleda, peciva i slatkiša.`,
-      part7: `Za više informacije posetite stranicu: `,
+      part1: `In 1931, Rudolf Wild founded the WILD company in Heidelberg, Germany, based on the foundation of the
+      company's global success on the vision of the production of soft drinks exclusively based on natural ingredients.`,
+      part2: `Today WILD is one of the world's leading suppliers of natural flavors for the food and non – alcoholic beverage
+      industry and the largest company for flavored ingredients in the world.`,
+      part3: `"We create a great taste" is WILD's motto for food and non – alcoholic beverages around the world. Thanks to
+      numerous production departments in Europe, North America and China, as well as branches in more than 70
+      countries, WILD recognizes the specific requirements of the food and non – alcoholic beverage market around
+      the world. Spreading innovations and anticipating customers' needs are WILD's pillars of success. International
+      exchange of expertise among employees provides WILD with early recognition of trends and introduction of top
+      innovations in favor of customers. Approximately 2,500 employees around the world are actively researching,
+      expanding, producing and selling.`,
+      part4: `The decades of experience in the development and trade of natural ingredients provide WILD customers with a
+      choice and products that will resist the time trial.`,
+      part5: `WILD is a leading producer of natural ingredients, its product portfolio of natural – aromatic ingredients includes
+      complete solutions such as beverage materials, known as flavor systems, both fruit and vegetable preparations.`,
+      part6: `In addition, WILD produces individual components such as aromas and extracts, natural colors, concentrates,
+      sweeteners and special ingredients. WILD offers complete solutions for the production of soft and alcoholic
+      drinks, dairy products, ice cream, pastries and sweets.`,
+      part7: `For more information, visit `,
       part8: `www.wildflavors.com`,
-      part9: `1996. godine Fruitica d.o.o. sa sedištem u Čantaviru postala je generalni zastupnik kompanije Wild u Srbiji, i od
-      tada uspešno zadovoljava zahteve kupaca zahvaljujući stručnoj kompetenciji i kontinuelnoj saradnji sa
-      najsavremenijim laboratorijama WILD-a. Našim cenjenim postojećim kupcima i potencijalnim kupcima nudimo
-      sastojke i celokupna rešenja za proizvodnju bezalkoholnih napitaka i drugih prehrambenih proizvoda.`,
-      part10: `Za poslovni ili savetodavni razgovor kontaktirajte nas!`
+      part9: `1996. Fruitica d.o.o. based in Čantavir, became the general distributor of Wild in Serbia, and since then
+      successfully meets customer demands thanks to professional competence and continuous cooperation with the
+      latest WILD laboratories. Our esteemed existing customers and potential buyers offer ingredients and complete
+      solutions for the production of soft drinks and other food products.`,
+      part10: `Contact us for a business or an advisory discussion!`
     },
     mokate: {
       mokacb: {
@@ -222,6 +225,25 @@ export const dataEng = {
       part5: `To make the best peanut paste we use peanuts from Argentine origin only. According to
       your wish the peanuts are roasted light to dark and thereafter grinded (with or without skin)
       from coarse to very fine.`
+    },
+    mprofood: {
+      title: `Mprofood`,
+      part1: [`SPICE MIXES`, `EMULGATORS FOR PATE`, `EMULGATORS FOR PROCESED MEAT PRODUCTS`, `ADITIVES FOR PICKLE`, `AROME`, `COLOURS`, `STARTER CULTURE`],
+      part2: [`fuszerkeverekek`, `emulgatorok-majasokhoz`, `emulgatorok-vorosarukhoz`, `pacadalekok`, `aromakeverekek`, `szinezekek`, `starterkulturak`]
+    },
+    career: {
+      title: `Career`,
+      part1: `A vállalat sikere az emberek sikereiben rejlik. Ezért mindig igyekszünk fejleszteni és megtartani a
+      legjobb tehetségeket, valamint létrehozni egy kellemes és ösztönző munkakörnyezetet, amelyek
+      motiválják az alkalmazottakat, hogy a mindennapi munkájukban maximálisan magukat tudják
+      adni.`,
+      part2: `A kezdeményezés, a csapatmunka, az odaadás, a győztes mentalitás és a szakmaiság olyan
+      értékek, amelyeket értékelünk és fejleszteni akarunk minden munkatársunkkal, mivel úgy véljük,
+      hogy ezek a kiválóság és a fejlődés alapjai.`,
+      part3: `Ha csatlakozni szeretne hozzánk, és úgy érzi, hogy tagja lehet csapatunknak, küldje el életrajzát
+      a work@fruitica.info e-mail címre.`,
+      part4: `Figyelembe vesszük az Ön jelentkezését, érdeklődését és kívánságait, és kapcsolatba lépünk
+      Önnel, ha megállapítjuk, hogy van lehetőség a foglalkoztatásra.`
     },
     contact: {
       title: `Kontakt`

@@ -29,6 +29,7 @@ export const dataHun = {
     ],
     languages: ["HUN", "SRB", "ENG"],
     companyData: {
+      title: `FRUITICA (SRB, HUN, ENG)`,
       part1: `A Fruitica d.o.o. vállalat székhelye Csantavér, 1996 – ban alakult, mint a németországi WILD vállalat hivatalos
       képviselője, és alapítása óta az élelmiszeripari termékek és üdítőitalok (gyümölcs – és zöldségkészítmények,
       aromák, kivonatok, természetes színezőanyagok, koncentrátumok, édesítőszerek, különleges összetevők)
@@ -43,7 +44,7 @@ export const dataHun = {
       part1: `Küldetésünk, hogy folyamatosan és következetesen megfeleljünk a fogyasztók és üzleti partnereink igényeinek,
       hogy alkalmazottainknak olyan környezetet biztosítunk, melyben a fejlődésüket elősegítő légkörben törekszenek
       a sikerre, valamint az életmód javítása mely a társadalom javát is szolgálja, amelyben mindennapjainkat éljük.`,
-      part2: `Minőségpolitika És Termékbiztonság`,
+      part2: `Minőségpolitika és Termékbiztonság`,
       part3: `Csak elégedett ügyfél jár vissza vásárolni – és termékeink rendszeres vásárlása biztosítja a Fruitica d.o.o.
       hosszú távú sikeres fennmaradását, és ezzel jelent stabil és megbízható megélhetést a vállalat alkalmazottai
       számára is.`,
@@ -162,7 +163,7 @@ export const dataHun = {
         part2: `FUNKCIONALITÁS:`,
         part3: [`a késztermékek finomításának és ízének javítása`, `az ízek és aromák javulása`, `a termék fehérítő hatásának megfelelő intenzitása`, `befolyásolja a késztermék konzisztenciáját`],
         part4: `ALKALMAZÁSA:`,
-        part5: [`ebéd koncentrátumok (instant levesek és mártások, burgonyapürével)`, `mártások / hideg mártások`, `öntetek`]
+        part5: [`ebéd koncentrátumok (instant levesek és mártások, burgonyapürével)`, `mártogatós / hideg mártások`, `öntetek`]
       },
       mokatetogo: {
         title: `TERMÉKEK ITALAUTOMATÁKHOZ | MOKATE TO GO`,
@@ -227,6 +228,25 @@ export const dataHun = {
       part5: `A legjobb földimogyoró vaj elkészítéséhez csak argentin eredetű földimogyorót használunk.
       A földimogyorót az Ön kívánsága szerint pörköljük világosra vagy sötétre, majd ezt követően
       (megtisztítva vagy anélkül) durvábbra vagy finomabbra őröljük tovább.`
+    },
+    mprofood: {
+      title: `Mprofood`,
+      part1: [`FŰSZERKEVERÉKEK`, `EMULGÁTOROK MÁJASOKHOZ`, `EMULGÁTOROK VÖRÖSÁRUKHOZ`, `PÁC ADALÉKOK`, `AROMAKEVERÉKEK`, `SZÍNEZÉKEK`, `STARTERKULTÚRÁK`],
+      part2: [`fuszerkeverekek`, `emulgatorok-majasokhoz`, `emulgatorok-vorosarukhoz`, `pacadalekok`, `aromakeverekek`, `szinezekek`, `starterkulturak`]
+    },
+    career: {
+      title: `Karrier`,
+      part1: `A vállalat sikere az emberek sikereiben rejlik. Ezért mindig igyekszünk fejleszteni és megtartani a
+      legjobb tehetségeket, valamint létrehozni egy kellemes és ösztönző munkakörnyezetet, amelyek
+      motiválják az alkalmazottakat, hogy a mindennapi munkájukban maximálisan magukat tudják
+      adni.`,
+      part2: `A kezdeményezés, a csapatmunka, az odaadás, a győztes mentalitás és a szakmaiság olyan
+      értékek, amelyeket értékelünk és fejleszteni akarunk minden munkatársunkkal, mivel úgy véljük,
+      hogy ezek a kiválóság és a fejlődés alapjai.`,
+      part3: `Ha csatlakozni szeretne hozzánk, és úgy érzi, hogy tagja lehet csapatunknak, küldje el életrajzát
+      a work@fruitica.info e-mail címre.`,
+      part4: `Figyelembe vesszük az Ön jelentkezését, érdeklődését és kívánságait, és kapcsolatba lépünk
+      Önnel, ha megállapítjuk, hogy van lehetőség a foglalkoztatásra.`
     },
     contact: {
       title: `Kapcsolat`

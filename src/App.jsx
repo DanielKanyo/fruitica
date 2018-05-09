@@ -17,6 +17,8 @@ import Competition1 from './components/About/Competition1';
 import Wild from './components/Materials/Wild';
 import Mokate from './components/Materials/Mokate';
 import Supperfood from './components/Materials/Supperfood';
+import Mprofood from './components/Materials/Mprofood';
+import Career from './components/Career/Career';
 
 import { dataHun } from './constants/languages/hun';
 import { dataSrb } from './constants/languages/srb';
@@ -108,6 +110,16 @@ class App extends Component {
               exact
               path={routes.SUPPERFOOD}
               component={() => <Supperfood languageObjectProp={this.state.languageObject} />}
+            />
+            <Route
+              exact
+              path={routes.MPROFOOD}
+              component={() => <Mprofood languageObjectProp={this.state.languageObject} />}
+            />
+            <Route
+              exact
+              path={routes.CAREER}
+              component={() => <Career languageObjectProp={this.state.languageObject} />}
             />
           </div>
         </div>

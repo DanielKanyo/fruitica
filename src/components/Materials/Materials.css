@@ -45,6 +45,11 @@
   height: 130px;
 }
 
+.mprofood-img {
+  background-image: url('../../images/meat.jpg');
+  background-position: 50% 68%;
+}
+
 .expand-container {
   position: relative;
   transition: height 200ms ease-in-out !important;
@@ -264,6 +269,10 @@
   margin-top: 0px !important;
 }
 
+.mprofood-text-container ul {
+  margin-bottom: 0px !important;
+}
+
 @media only screen and (max-width: 900px) {
   .component-header-img {
     margin-bottom: 15px;
@@ -276,5 +285,12 @@
   .background-image {
     margin: -12px -18px;
     opacity: 0.5;
+  }
+  .mokate-img {
+    background-size: 48%;
+    height: 130px;
+  }
+  .mprofood-img {
+    background-position: 50% 70%;
   }
 }

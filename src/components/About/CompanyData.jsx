@@ -9,7 +9,7 @@ class CompanyData extends React.Component {
         <AppBar
           className="component-app-bar-header"
           showMenuIconButton={false}
-          title={this.props.languageObjectProp.data.menuItems[0].item1}
+          title={this.props.languageObjectProp.data.companyData.title}
         />
         <div className="component-text-container">
           <p>{this.props.languageObjectProp.data.companyData.part1}</p>

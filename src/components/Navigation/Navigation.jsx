@@ -119,10 +119,10 @@ class Navigation extends React.Component {
           iconElementLeft={<IconButton className="hamb-icon"><NavigationMenu /></IconButton>}
           onLeftIconButtonClick={this.handleToggle}
           iconElementRight={<div className="language-select">
-              <FlatButton onClick={(e) => this.handleChangeLanguage(e)} label="ENG" />
-              <FlatButton onClick={(e) => this.handleChangeLanguage(e)} label="SRB" />
-              <FlatButton onClick={(e) => this.handleChangeLanguage(e)} label="HUN" />
-            </div>
+            <FlatButton onClick={(e) => this.handleChangeLanguage(e)} label="ENG" />
+            <FlatButton onClick={(e) => this.handleChangeLanguage(e)} label="SRB" />
+            <FlatButton onClick={(e) => this.handleChangeLanguage(e)} label="HUN" />
+          </div>
           }
         />
         <div className="mini-header">
@@ -238,14 +238,18 @@ class Navigation extends React.Component {
                       {this.state.languageObject.data.menuItems[1].subItem13}
                     </MenuItem>
                   </Link>
-                  <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
-                    {this.state.languageObject.data.menuItems[1].subItem14}
-                  </MenuItem>
+                  <Link to={routes.MPROFOOD} onClick={() => { this.hideMenu() }}>
+                    <MenuItem style={{ whiteSpace: 'normal' }} className="subsubmenu-item">
+                      {this.state.languageObject.data.menuItems[1].subItem14}
+                    </MenuItem>
+                  </Link>
                 </div>
               </div>
 
               {/* third */}
-              <MenuItem>{this.state.languageObject.data.menuItems[2].title}</MenuItem>
+              <Link to={routes.CAREER} onClick={() => { this.hideMenu() }}>
+                <MenuItem>{this.state.languageObject.data.menuItems[2].title}</MenuItem>
+              </Link>
               {/* forth */}
               <Link to={routes.CONTACT} onClick={() => { this.hideMenu() }}>
                 <MenuItem>{this.state.languageObject.data.menuItems[3].title}</MenuItem>

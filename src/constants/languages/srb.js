@@ -29,6 +29,7 @@ export const dataSrb = {
     ],
     languages: ["HUN", "SRB", "ENG"],
     companyData: {
+      title: `FRUITICA (SRB, HUN, ENG)`,
       part1: `Kompanija Fruitica d.o.o. sa sedištem u Čantaviru osnovana je 1996. godine kao generalni zastupnik nemačke
       kompanije WILD i od samog osnivanja bavi se uvozom i distribucijom industrijskih proizvoda za potrebe
       proizvodnje prehrambenih proizvoda i bezalkoholnih napitaka (voćni i povrćni preparati, arome, ekstrakti,
@@ -119,109 +120,126 @@ export const dataSrb = {
     },
     mokate: {
       mokacb: {
-        title: `FOAMERS FOR BEVERAGES | MOKA CB`,
-        part1: `Foamers for beverages MOKA CB are instant products that easily allow to obtain the effect of
-        „foam milk” and at the same time improve the taste of coffee drinks and chocolate instant.
-        Capsules technology and spray drying allow to close gas in foamer capsules and proper
-        composition of the product, allow upon dissolution, form stable, aromatic and tasty milk foam on
-        the top of the drink. Our offer includes wide range of almost 40 standard products MOKA
-        CB based on vegetable fat.`,
-        part2: `FUNCTIONALITY:`,
-        part3: [`wide range of froth height (10 – 30 mm)`, `stability in hard water and acidic pH`, `improvement of taste (milkiness and aroma)`, `diversified whitening effect`, `excellent solubility`],
-        part4: `APPLICATION:`,
-        part5: [`cappuccino`, `latte`, `frappe`, `coffee drinks`, `chocolate drinks`]
+        title: `PENA ZA PIĆE | MOKA CB`,
+        part1: `Pena za napitke MOKA CB su instant proizvodi koji lako omogućavaju efekat &quot;penastog mleka&quot;,
+        a istovremeno poboljšavaju ukus kafe i čokolade. Tehnologija kapsula i sušenje u raspršivanju
+        omogućavaju zatvaranje gasa u penastim kapsulama i pravilnom sastavu proizvoda,
+        dozvoljavaju raspadanje, formiraju stabilnu, aromatičnu i ukusnu mlečnu penu na vrhu pića.
+        Naša ponuda uključuje širok asortiman gotovo 40 standardnih proizvoda MOKA CB baziranih na
+        biljnoj masti.`,
+        part2: `FUNKCIONALNOST:`,
+        part3: [`širok spektar visine pene (10 - 30 mm)`, `stabilnost u tvrdoj vodi i kiselom pH`, `poboljšanje ukusa (mlečnost i aroma)`, `diversifikovani efekat beljenja`, `odlična rastvorljivost`],
+        part4: `APLIKACIJA:`,
+        part5: [`kapućino`, `latte`, `frappe`, `kafene napitke`, `čokoladna pića`]
       },
       mokaero: {
-        title: `TOPPING BASES | MOKAERO`,
-        part1: `Topping bases MOKAERO are instant products formed by new technology of spray drying. 
-        Based on vegetable oil, proteins and specific composition of vegetable emulsifiers. The raw
-        materials and their proportions decide about topping key parameters such as: increase in
-        volume, consistency, stability and taste.`,
-        part2: `They are used to prepare cold desserts where we desire the effect of aeration obtained by
-        manual mixing. The effect of aeration improves the creaming, taste and most of all increases the
-        volume of the finished product.`,
-        part3: `Topping base can be combined with hydrocolloids, modifying the structure, increasing the
-        volume and stability. The addition of cocoa, fruit powders and aroma allow the creation of
-        delicious desserts.`,
-        part4: `FUNCTIONALITY:`,
-        part5: [`whipping time < 3 min`, `good increase in volume > 150%`, `product stability at room temperature`, `improvement in creaminess and full taste of the finished product`],
-        part6: `APPLICATIONS:`,
-        part7: [`whipped cream substitutes`, `cold desserts`, `ice-cream`, `puddings`, `creams`, `mousses`, `shakes`, `dips`, `dressings`]
+        title: `TOPING BAZE | MOKAERO`,
+        part1: `MOKAERO toping baze su instant proizvodi formirani novom tehnologijom sušenja sa sprejom.
+        Na bazi biljnog ulja, proteina i specifičnog sastava biljnih emulgatora. Sirovi materijali i njihove
+        proporcije odlučuju o vrhunskim ključnim parametrima kao što su: povećanje zapremine,
+        konzistentnosti, stabilnosti i ukusa.`,
+        part2: `Koriste se za pripremanje hladnih deserta u kojima želimo efekat aeracije dobijene ručnim
+        mešanjem. Efekat aeracije poboljšava kremasnost, ukus i najviše povećava zapreminu gotovog
+        proizvoda.`,
+        part3: `Gornja baza se može kombinovati sa hidrokoloidima, menjajući strukturu, povećavajući volumen
+        i stabilnost. Dodavanje kakaoa, voća i aroma omogućava stvaranje ukusnih deserta.`,
+        part4: `FUNKCIONALNOST:`,
+        part5: [`vreme mućenja < 3 min`, `dobar rast volumena > 150%`, `stabilnost proizvoda na sobnoj temperaturi`, `poboljšanje kremastosti i pun ukusa gotovog proizvoda`],
+        part6: `APLIKACIJA:`,
+        part7: [`zamena šlaga`, `hladne deserte`, `sladoled`, `pudinga`, `kreme`, `pene`, `trese`, `umaci`, `preliva`]
       },
       mokasw: {
-        title: `CREAMERS FOR SOUPS AND SAUCES | MOKA SW`,
-        part1: `Creamers for soups and sauces MOKA SW are products of spray drying which are source of
-        emulsified vegetable fat powder that are widely used as semi products in soups and instant
-        sauces. Many kinds of vegetable fat are used to produce MOKA SW  creamers, milkiness and
-        higher stability of product is obtained by introducing source of stabilized milk protein to the
-        recipe. Stability of our products in instant products during their preparation is provided by addition
-        of stabilizing agents and emulsifiers.`,
-        part2: `FUNCTIONALITY:`,
-        part3: [`improvement of creaming and taste of instant dishes`, `improvement of taste and aroma perception`, `proper intensity of whitening effect in the product`, `influence on the consistency of the finished product`],
-        part4: `APPLICATIONS:`,
-        part5: [`lunch concentrates (instant soups and sauces, mashed potatoes)`, `dips / cold sauces`, `dressings`]
+        title: `KREMERI ZA SUPE I SOSOVE | MOKA SW`,
+        part1: `Kremeri za supe i sosove MOKA SW su proizvodi sušenja u raspršivanju, koji su izvor
+        emulgovane biljne masti u prahu koji se široko koriste kao poluproizvodi u supe i instant
+        sosovima. Mnoge vrste biljnih masti koriste se za proizvodnju MOKA SW kremera, mlečnost i
+        veću stabilnost proizvoda dobijaju se uvođenjem izvora stabilizovanog proteina mleka u recept.
+        Stabilnost naših proizvoda u trenutnim proizvodima tokom njihove pripreme obezbeđuju se
+        dodatkom stabilizujućih sredstava i emulgatora.`,
+        part2: `FUNKCIONALNOST:`,
+        part3: [`poboljšanje krema i ukusa gotovih proizvoda`, `poboljšanje percepcije ukusa i arome`, `odgovarajući intenzitet efekta beljenja u proizvodu`, `uticaj na konzistentnost gotovog proizvoda`],
+        part4: `APLIKACIJA:`,
+        part5: [`ručni koncentrati (instant supe i sosevi, pire krompir)`, `umaci / hladni sosovi`, `preliva`]
       },
       mokatetogo: {
-        title: `VENDING PRODUCTS | MOKATE TO GO`,
-        part1: `MOKATE TO GO is a group of products designed in order to work well in vending machines. The
-        technology allows  for physico-chemical parameters of vending products.`,
-        part2: `FUNCTIONALITY:`,
-        part3: [`bulk density`, `pouring capacity`, `homogeneity`, `wettability`, `solubility`, `foam height`, `convenient logistics`],
-        part4: `APPLICATIONS:`,
-        part5: [`coffee`, `white coffee`, `cappucino`, `vending creamers`, `chocolate`, `chocolate base`, `tea beverages`, `soup`]
+        title: `PROIZVODI ZA PIĆE SA APARATA | MOKATE TO GO`,
+        part1: `MOKATE TO GO je grupa proizvoda dizajnirana za piće sa aparata. Tehnologija dozvoljava
+        fizičko – hemijske parametre aparatskog proizvoda.`,
+        part2: `FUNKCIONALNOST:`,
+        part3: [`gustina`, `kapacitet zalivanja`, `homogenost`, `omekšljivost`, `rastvorljivost`, `visina pene`, `pogodna logistika`],
+        part4: `APLIKACIJA:`,
+        part5: [`kafu`, `bela kafa`, `kapućino`, `automatski kremeri`, `čokolada`, `čokoladna baza`, `čajne napitke`, `supa`]
       },
       mokacw: {
-        title: `CREAMERS FOR BEVERAGES | MOKA CW`,
-        part1: `Creamers for beverages MOKA CW belong to group of instant products, which main function is
-        to apply whitening effect and at the same time improve the taste of the finished product.
-        Our MOKA CW creamers are produced on vegetable fat base (with a content of 15 to 45 %),
-        milk proteins and additives present in the creamers provide stability both in cold and hot drinks,
-        stability in hard water or various pH. Although vegetable fat and milk proteins are less than half of
-        percentage of the creamers MOKA CW, they are various kinds of vegetable fats and milk protein
-        of highest quality that effect the fullness of taste, creaming, milkiness and  consistency of the
-        drink.`,
-        part2: `FUNCTIONALITY:`,
-        part3: [`excellent solubility and wettability`, `high powder flowability`, `broad spectrum of bulk density (max. 650g/l)`, `possibility of adjusting the particle size`],
-        part4: `APPLICATIONS:`,
-        part5: [`coffee drinks`, `cappuccino`, `latte`, `frappe`, `tea`, `chocolate drinks`]
+        title: `KREMERI ZA PIĆE | MOKA CW`,
+        part1: `Kremeri za piće MOKA CW pripadaju grupi instant proizvoda, čija je glavna funkcija da
+        primenjuje beljenje i istovremeno poboljšava ukus gotovog proizvoda. Naši MOKA CW kremeri
+        se proizvode na bazi biljnih masti (sa sadržajem od 15 do 45%), mlečni proteini i aditivi prisutni u
+        kremu obezbeđuju stabilnost kako u hladnim tako i toplim napitcima, stabilnosti u tvrdu vodi ili
+        raznim pH vrednostima. Iako su biljne masti i mlečni proteini manji od polovine procenta kremera
+        MOKA CW, to su različite vrste biljnih masti i mlečnih proteina najvišeg kvaliteta koji utiču na
+        punoću ukusa, kremastosti, mlečnosti i konzistencije pića.`,
+        part2: `FUNKCIONALNOST:`,
+        part3: [`odlična rastvorljivost i omekšivost`, `visoka otpornost na prah`, `širok spektar rasute gustine (maksimalno 650 g / l)`, `mogućnost podešavanja veličine čestica`],
+        part4: `APLIKACIJA:`,
+        part5: [`kafene napitke`, `kapućino`, `latte`, `frappe`, `čaj`, `čokoladna pića`]
       },
       mokafp: {
-        title: `HIGH FAT POWDER | MOKA FP`,
-        part1: `High fat powder MOKA FP belong to group of powder instant products with high content of
-        vegetable fat (from 70 to 80 %). The products are formed by new technology of spray drying,
-        which allows to obtain properly emulsified fat combined with the carrier. Our high fat powders are
-        enriched with milk protein and other additives that affect their application properties.`,
-        part2: `FUNCTIONALITY:`,
-        part3: [`primary source of fat in the finished product`, `effect on structure, viscosity and consistency of the finished product`, `improvement of taste and aroma perception`, `proper intensity of whitening effect in the product`, `easy to store and operate`, `stable product with extended shelf life`, `product soluble in water solutions`],
-        part4: `APPLICATIONS:`,
-        part5: [`ice cream mixes`, `bakery mixes`, `pastry mixes`, `lunch concentrates, instant soups and sauces`]
+        title: `PRAH VISOKOG MASTI | MOKA FP`,
+        part1: `MOKA FP prah visokog procenta masti pripada grupi praškastih instant proizvoda sa visokim
+        sadržajem biljnih masti (od 70 do 80%). Proizvodi se formiraju novom tehnologijom sušenja sa
+        sprejom, što omogućava pravilno dobijanje emulziranih masti u kombinaciji sa nosačem. Naši
+        prahovi sa visokim sadržajem masti obogaćeni su mlečnim proteinima i drugim aditivima koji
+        utiču na njihove kvalitete.`,
+        part2: `FUNKCIONALNOST:`,
+        part3: [`primarni izvor masti u gotovom proizvodu`, `uticaj na strukturu, viskoznost i konzistenciju gotovog proizvoda`, `poboljšanje percepcije ukusa i arome`, `odgovarajući intenzitet efekta beljenja u proizvodu`, `lako se skladište i radi`, `stabilan proizvod sa produženim rokom trajanja`, `proizvod rastvorljiv u vodenim rastvorima`],
+        part4: `APLIKACIJA:`,
+        part5: [`mešavina sladoleda`, `pekarske mešavine`, `mešavine peciva`, `ručni koncentrati, instantne supe i sosevi`]
       },
       mokamm: {
-        title: `MILK REPLACERS | MOKA MM`,
-        part1: `Milk replacer MOKA MM is a combination of the highest quality  raw milk and vegetable fats
-        (palm or coconut). Due to the combining of the liquid ingredients and then spray drying, the ready
-        products are of highest quality and perfect properties.
-        Our MILK MIX replacers are widely used in production of ice-cream,  bakery and pastry industry.`,
-        part2: `FUNCTIONALITY:`,
-        part3: [`milk replacer with different content of protein`, `milk drink easy to prepare`, `creaminess and aroma comparable to cow's milk`],
-        part4: `APPLICATIONS:`,
-        part5:[`liquid recombinant milk`, `condensed recombinant milk`, `ice cream`, `lunch concentrates`, `yogurt`, `chocolate drinks`, `coffee drinks`, `cappucino`]
+        title: `ZAMENA ZA MLEKO | MOKA MM`,
+        part1: `Zamena mleka MOKA MM je kombinacija najkvalitetnijeg sirovog mleka i biljnih masti (palma ili
+          kokosov). Zbog kombinovanja tekućih sastojaka, a zatim sušenja sa sprejom, gotovi proizvodi su
+          vrhunskog kvaliteta i savršenih osobina.
+          Naše MILK MIKS zamene se široko koriste u proizvodnji sladoleda, pekarskih i poslastičarnih
+          industrija.`,
+        part2: `FUNKCIONALNOST:`,
+        part3: [`zamena mleka sa različitim sadržajem proteina`, `mlečni napitak se lako priprema`, `kremastost i aroma uporediva sa kravjim mlekom`],
+        part4: `APLIKACIJA:`,
+        part5:[`tečno rekombinantno mleko`, `kondenzovano rekombinantno mleko`, `sladoled`, `koncentrati ručka`, `jogurt`, `čokoladna pića`, `kafene napitke`, `kapućino`]
       },
       title: `Mokate`
     },
     supperfood: {
       title: `Supperfood`,
-      part1: `Peanut paste`,
-      part2: `Peanuts, also known as ground nuts, are fruits that grow on low peanut plants which grow
-      and subsequently grow into the ground. At harvest time, the plants are pulled out of the
-      loose (sandy) soil and are put upside down to dry and then harvest them. The peanut shells are removed in the country of origin and the
-      peanuts are transported to the Netherlands under controlled conditions. Peanuts are only
-      bought with an aflatoxin certificate.`,
-      part3: `Product groups`,
-      part4: `Peanut paste`,
-      part5: `To make the best peanut paste we use peanuts from Argentine origin only. According to
-      your wish the peanuts are roasted light to dark and thereafter grinded (with or without skin)
-      from coarse to very fine.`
+      part1: `Kikiriki pasta`,
+      part2: `Kikiriki je povrće koje pripada porodici mahunarki. U vreme žetve, biljke se izvlače iz
+      slobodnog (peskovitog) tla i postavljaju se naopako da bi se osušile i zatim se sakupljaju.
+      Kikiriki ljuske se uklanjaju u zemlji porekla i kikiriki se transportuje u Holandiju pod
+      kontrolisanim uslovima. Kikiriki se kupuju samo sa sertifikatom aflatoksina.`,
+      part3: `Grupe proizvoda`,
+      part4: `Kikiriki pasta`,
+      part5: `Da bismo napravili najbolju kikiriki pastu, koristimo kikiriki samo iz Argentine. Po vašoj želji,
+      kikiriki su pečeni od svetle do tamne boje i nakon toga grundirani (sa ili bez kože) od grubih
+      do veoma finih.`
+    },
+    mprofood: {
+      title: `Mprofood`,
+      part1: [`MEŠAVINE ZAČINA`, `EMULGATORI ZA PAŠTETE`, `EMULGATORI ZA MESNE PRERAĐEVINE`, `ADITIVI ZA SALAMURENJE`, `AROME`, `BOJE`, `STARTERKULTURE`],
+      part2: [`fuszerkeverekek`, `emulgatorok-majasokhoz`, `emulgatorok-vorosarukhoz`, `pacadalekok`, `aromakeverekek`, `szinezekek`, `starterkulturak`]
+    },
+    career: {
+      title: `Karijera`,
+      part1: `Uspeh kompanije je uspeh ljudi. Stoga se uvek trudimo da razvijemo i zadržimo najbolje talente,
+      kao i da kreiramo prijatno i podsticajno radno okruženje, koje će zaposlene motivisati da daju
+      svoj maksimum u svakodnevnom radu.`,
+      part2: `Preuzimanje inicijative, timski rad, posvećenost, pobednički mentalitet i profesionalnost su
+      vrednosti koje cenimo i želimo da razvijemo kod svih naših zaposlenih, jer smatramo da su one
+      osnova izvrsnosti i napretka.`,
+      part3: `Ukoliko želite da nam se pridružite i smatrate da možete da budete deo našeg tima pošaljite nam
+      svoju biografiju na zaposlenje@fruitica.info.`,
+      part4: `Razmotrićemo Vašu prijavu, interesovanja i želje i kontaktiraćemo Vas ukoliko budemo utvrdili da
+      postoji mogućnost zaposlenja.`
     },
     contact: {
       title: `Kontakt`

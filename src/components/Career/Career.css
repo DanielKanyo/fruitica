@@ -1,0 +1,24 @@
+.career-img {
+  background-color: white; 
+  background-image: url('../../images/wewantyou.jpg');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 700px) {
+  .career-img {
+    background-size: 100% auto;
+    background-position: bottom;
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .career-img {
+    background-size: 100% auto;
+    background-position: bottom;
+    height: 100px;
+  }
+}
+
