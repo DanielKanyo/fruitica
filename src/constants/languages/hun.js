@@ -29,7 +29,7 @@ export const dataHun = {
     ],
     languages: ["HUN", "SRB", "ENG"],
     companyData: {
-      title: `FRUITICA (SRB, HUN, ENG)`,
+      title: `FRUITICA`,
       part1: `A Fruitica d.o.o. vállalat székhelye Csantavér, 1996 – ban alakult, mint a németországi WILD vállalat hivatalos
       képviselője, és alapítása óta az élelmiszeripari termékek és üdítőitalok (gyümölcs – és zöldségkészítmények,
       aromák, kivonatok, természetes színezőanyagok, koncentrátumok, édesítőszerek, különleges összetevők)
@@ -244,8 +244,9 @@ export const dataHun = {
       értékek, amelyeket értékelünk és fejleszteni akarunk minden munkatársunkkal, mivel úgy véljük,
       hogy ezek a kiválóság és a fejlődés alapjai.`,
       part3: `Ha csatlakozni szeretne hozzánk, és úgy érzi, hogy tagja lehet csapatunknak, küldje el életrajzát
-      a work@fruitica.info e-mail címre.`,
-      part4: `Figyelembe vesszük az Ön jelentkezését, érdeklődését és kívánságait, és kapcsolatba lépünk
+      a következő e-mail címre: `,
+      part4: `work@fruitica.info`,
+      part5: `Figyelembe vesszük az Ön jelentkezését, érdeklődését és kívánságait, és kapcsolatba lépünk
       Önnel, ha megállapítjuk, hogy van lehetőség a foglalkoztatásra.`
     },
     contact: {

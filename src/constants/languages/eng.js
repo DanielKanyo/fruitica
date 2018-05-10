@@ -29,11 +29,11 @@ export const dataEng = {
     ],
     languages: ["HUN", "SRB", "ENG"],
     companyData: {
-      title: `FRUITICA (SRB, HUN, ENG)`,
-      part1: `Company Fruitica d.o.o. based in Čantavir, was founded in 1996 as the general representative of the German
+      title: `FRUITICA`,
+      part1: `Company Fruitica d.o.o. based in Chantavir, was founded in 1996 as the general representative of the German
       company WILD and since it’s founding has been engaged in importing and distributing industrial products for the
-      needs of the production of food products and soft drinks (fruit and vegetable preparations, aromas, extracts,
-      natural colors, concentrates, sweeteners, special ingredients).`,
+      needs of the production of food products and soft drinks (fruit and vegetable products, aromas, extracts, natural
+      colors, concentrates, sweeteners, special ingredients).`,
       part2: `In 2002, the company expanded it’s activities to import and distribution of finished products.`,
       part3: `In 2008, HACCP and ISO 9001 standards were introduced.`,
       part4: `In 2010, the production of primary agricultural products started.`,
@@ -45,11 +45,11 @@ export const dataEng = {
       an environment in which our employees will strive for success in an atmosphere that encourages their
       development, to improve the way of life and work for the benefit of the society in which we live our daily lives.`,
       part2: `Product Quality and Security Policy`,
-      part3: `Only satisfied customers return to their purchase – regular purchase of our products ensures the long – term
+      part3: `Only satisfied customers return to their purchase. Regular purchase of our products ensures the long – term
       survival of the company &quot;Fruitica d.o.o.&quot; and, therefore, a stable and existential basis for all the employees in the
       company.`,
-      part4: `Therefore, satisfaction not only demands, but also unpublished user expectations of the users, quality assurance
-      and product safety is a priority obligation of employees at all levels of activity at Fruitica doo.`,
+      part4: `Therefore, satisfaction not only demands, but also unpublished user expectations of the users. 
+      Quality assurance and product safety is a priority obligation of employees at all levels of activity at Fruitica doo.`,
       part5: `The achievement of these goals is achieved through the implementation of the quality management system and
       the safety of products in accordance with the requirements of ISO 9001: 2008, BRC Global Standard for Food
       Safety Issue 5: 2008 and HACCP by CAC / RCP 1-1969, Rev. 4-2003, which means:`,
@@ -68,35 +68,36 @@ export const dataEng = {
       part13: `decision making based on facts;`,
       part14: `building mutually beneficial, partner relationships with suppliers.`,
       part15: `General director and founder: Istvan Berenyi`,
-      part16: `Čantavir, September 25, 2008`
+      part16: `Chantavir, September 25, 2008`
     },
     competition1: {
-      part1: `Kupovina nove poljoprivredne mašine / Bethlen Gábor Fond`,
-      part2: `Iznos ugovorene pomoći: 4 500 000 Huf.`,
-      part3: `Prezentacija sadržaja projekta: Naša firma FRUITICA d.o.o. je kompanija koja se dinamički razvija.
-      Prema sporazumu između Fruitica d.o.o. i Vlade Mađarske (Betlen Gabor Fond, kao podrška) Fruitica
-      d.o.o. je osvojila 4,5 miliona Huf. bespovratne pomoći za kupovinu produktivnih sredstava.`,
-      part4: `Pod identikacionim brojem CSV-KP- 1-2017/1- 000007 osnovni cilj je povećanje tehničke opreme
-      kompanije.`,
-      part5: `Zahvaljujući investiciji, otvoreno je novo radno mesto u kompaniji FRUITICA d.o.o. iz Čantavira.
-      Kupovinom najmodernije mašine, kompanija postaje konkurentnija i efikasnija. Projekat u velikoj
-      meri doprinosi povećanju konkurentnosti kompanije, održavanju radnih mesta, stvaranju novih
-      radnih mesta i povećanju prihoda od prodaje.`,
-      part6: `Datum stupanja na snagu prijave:`,
+      part1: `Purchase of new agricultural machinery / Bethlen Gábor Fond`,
+      part2: `Amount of contracted aid: 4 500 000 HUF.`,
+      part3: `Presentation of the content of the project: Our company FRUITICA d.o.o. is a company that is developing
+      dynamically. According to the agreement between Fruitica d.o.o. and the Government of Hungary (Bethlen
+      Gabor Fund, as support) Fruitica d.o.o. has won 4.5 million HUF. grants for the purchase of productive
+      assets.`,
+      part4: `Under the identification number CSV-KP- 1-2017 / 1- 000007, the main goal is to increase the company's
+      technical equipment.`,
+      part5: `Thanks to the investment, a new position was opened in the company FRUITICA d.o.o. from Chanthavir.
+      By purchasing the most modern machinery, the company becomes more competitive and more efficient.
+      The project greatly contributes to increasing the competitiveness of the company, maintaining existing jobs,
+      creating new jobs and increasing sales revenues.`,
+      part6: `Date of entry into force:`,
       part7: `28.02.2018.`,
-      part8: `Identifikacioni broj projekta:`,
+      part8: `Project ID:`,
       part9: `CSV-KP- 1-2017/1- 000007`,
-      part10: `Korisnik:`,
-      part11: `FRUITICA društvo sa ograničenom odgovornošću`,
-      part12: `24220 Čantavir`,
-      part13: `Trg Republike 7.`,
-      part14: `Republika Srbija`,
+      part10: `User:`,
+      part11: `FRUITICA Limited Liability Company`,
+      part12: `24220 Chanthavir`,
+      part13: `Republic Square 7.`,
+      part14: `Republic of Serbia`,
     },
     wild: {
       title: `Wild`,
-      part1: `In 1931, Rudolf Wild founded the WILD company in Heidelberg, Germany, based on the foundation of the
+      part1: `In 1931, Rudolf Wild founded the WILD company in Heidelberg, Germany, he made the foundations of the
       company's global success on the vision of the production of soft drinks exclusively based on natural ingredients.`,
-      part2: `Today WILD is one of the world's leading suppliers of natural flavors for the food and non – alcoholic beverage
+      part2: `Today WILD is one of the world&#39;s leading suppliers of natural flavors for the food and non – alcoholic beverage
       industry and the largest company for flavored ingredients in the world.`,
       part3: `"We create a great taste" is WILD's motto for food and non – alcoholic beverages around the world. Thanks to
       numerous production departments in Europe, North America and China, as well as branches in more than 70
@@ -114,10 +115,10 @@ export const dataEng = {
       drinks, dairy products, ice cream, pastries and sweets.`,
       part7: `For more information, visit `,
       part8: `www.wildflavors.com`,
-      part9: `1996. Fruitica d.o.o. based in Čantavir, became the general distributor of Wild in Serbia, and since then
+      part9: `In 1996 Fruitica d.o.o. based in Chantavir, became the general distributor of Wild in Serbia, and since then
       successfully meets customer demands thanks to professional competence and continuous cooperation with the
-      latest WILD laboratories. Our esteemed existing customers and potential buyers offer ingredients and complete
-      solutions for the production of soft drinks and other food products.`,
+      latest WILD laboratories. To our esteemed existing customers and potential buyers we offer ingredients and
+      complete solutions for the production of soft drinks and other food products.`,
       part10: `Contact us for a business or an advisory discussion!`
     },
     mokate: {
@@ -233,17 +234,16 @@ export const dataEng = {
     },
     career: {
       title: `Career`,
-      part1: `A vállalat sikere az emberek sikereiben rejlik. Ezért mindig igyekszünk fejleszteni és megtartani a
-      legjobb tehetségeket, valamint létrehozni egy kellemes és ösztönző munkakörnyezetet, amelyek
-      motiválják az alkalmazottakat, hogy a mindennapi munkájukban maximálisan magukat tudják
-      adni.`,
-      part2: `A kezdeményezés, a csapatmunka, az odaadás, a győztes mentalitás és a szakmaiság olyan
-      értékek, amelyeket értékelünk és fejleszteni akarunk minden munkatársunkkal, mivel úgy véljük,
-      hogy ezek a kiválóság és a fejlődés alapjai.`,
-      part3: `Ha csatlakozni szeretne hozzánk, és úgy érzi, hogy tagja lehet csapatunknak, küldje el életrajzát
-      a work@fruitica.info e-mail címre.`,
-      part4: `Figyelembe vesszük az Ön jelentkezését, érdeklődését és kívánságait, és kapcsolatba lépünk
-      Önnel, ha megállapítjuk, hogy van lehetőség a foglalkoztatásra.`
+      part1: `The success of the company is the success of people. Therefore, we always try to develop and
+      retain the best talents, as well as create a pleasant and stimulating work environment, which will
+      motivate the employees to give their maximum in everyday work.`,
+      part2: `Taking initiative, team work, dedication, winning mentality and professionalism are values that we
+      appreciate and want to develop with all our employees, because we consider them to be the
+      basis of excellence and progress.`,
+      part3: `If you want to join us and feel that you can be a part of our team, send us your biography at `,
+      part4: `zaposlenje@fruitica.info.`,
+      part5: `We will consider your application, interest and wishes and we will contact you if we find that there
+      is a possibility of employment.`
     },
     contact: {
       title: `Kontakt`

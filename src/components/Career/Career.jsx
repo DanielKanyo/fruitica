@@ -17,8 +17,11 @@ class Career extends React.Component {
         <div className="component-text-container career-text-container">
           <p>{this.props.languageObjectProp.data.career.part1}</p>
           <p>{this.props.languageObjectProp.data.career.part2}</p>
-          <p>{this.props.languageObjectProp.data.career.part3}</p>
-          <p>{this.props.languageObjectProp.data.career.part4}</p>
+          <p>
+            {this.props.languageObjectProp.data.career.part3}
+            <u className="email-address">{this.props.languageObjectProp.data.career.part4}</u>
+          </p>
+          <p>{this.props.languageObjectProp.data.career.part5}</p>
         </div>
 
       </div>

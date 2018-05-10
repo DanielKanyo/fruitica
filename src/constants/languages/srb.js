@@ -2,7 +2,7 @@ export const dataSrb = {
   data: {
     menuItems: [{
         title: "O nama",
-        item1: "Fruitica",
+        item1: "FRUITICA",
         item2: "Naša misija",
         item3: "Vesti",
         item4: "Galerija",
@@ -29,7 +29,7 @@ export const dataSrb = {
     ],
     languages: ["HUN", "SRB", "ENG"],
     companyData: {
-      title: `FRUITICA (SRB, HUN, ENG)`,
+      title: `FRUITICA`,
       part1: `Kompanija Fruitica d.o.o. sa sedištem u Čantaviru osnovana je 1996. godine kao generalni zastupnik nemačke
       kompanije WILD i od samog osnivanja bavi se uvozom i distribucijom industrijskih proizvoda za potrebe
       proizvodnje prehrambenih proizvoda i bezalkoholnih napitaka (voćni i povrćni preparati, arome, ekstrakti,
@@ -48,8 +48,7 @@ export const dataSrb = {
       part3: `Samo zadovoljni korisnici se vraćaju ponovnoj kupovini - a redovnom kupovinom naših proizvoda osiguravaju
       dugoročni opstanak kompanije "Fruitica d.o.o." a samim tim i stabilnu egzistencijalnu osnovu svim zaposlenima u
       kompaniji.`,
-      part4: `Zato zadovoljenje ne samo zahteva, već i neiskazanih očekivanja korisnika, tj. osiguranje kvaliteta i bezbednosti
-      proizvoda je prioritetna obaveza zaposlenih na svim nivoima aktivnosti u kompaniji Fruitica d.o.o.`,
+      part4: `Zato zadovoljenje ne samo zahteva, već i neiskazanih očekivanja korisnika.`,
       part5: `Ostvarenje navedenih ciljeva postiže se sprovođenjem sistema menadžmenta kvalitetom i bezbednošću
       proizvoda u skladu sa zahtevima standarda ISO 9001:2008, BRC Global Standard for Food Safety Issue 5:2008 i
       HACCP po CAC/RCP 1-1969, Rev. 4-2003., što podrazumeva:`,
@@ -237,8 +236,9 @@ export const dataSrb = {
       vrednosti koje cenimo i želimo da razvijemo kod svih naših zaposlenih, jer smatramo da su one
       osnova izvrsnosti i napretka.`,
       part3: `Ukoliko želite da nam se pridružite i smatrate da možete da budete deo našeg tima pošaljite nam
-      svoju biografiju na zaposlenje@fruitica.info.`,
-      part4: `Razmotrićemo Vašu prijavu, interesovanja i želje i kontaktiraćemo Vas ukoliko budemo utvrdili da
+      svoju biografiju na `,
+      part4: `zaposlenje@fruitica.info`,
+      part5: `Razmotrićemo Vašu prijavu, interesovanja i želje i kontaktiraćemo Vas ukoliko budemo utvrdili da
       postoji mogućnost zaposlenja.`
     },
     contact: {
