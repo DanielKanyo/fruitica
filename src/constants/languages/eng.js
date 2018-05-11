@@ -2,7 +2,7 @@ export const dataEng = {
   data: {
     menuItems: [{
         title: "About us",
-        item1: "Fruitica",
+        item1: "FRUITICA",
         item2: "Our mission",
         item3: "News",
         item4: "Gallery",

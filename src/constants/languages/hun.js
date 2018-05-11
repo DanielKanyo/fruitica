@@ -2,7 +2,7 @@ export const dataHun = {
   data: {
     menuItems: [{
         title: "Rólunk",
-        item1: "Fruitica",
+        item1: "FRUITICA",
         item2: "Küldetés",
         item3: "Hírek",
         item4: "Galéria",
