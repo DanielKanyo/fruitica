@@ -209,7 +209,7 @@ export const dataEng = {
         part2: `FUNCTIONALITY:`,
         part3: [`milk replacer with different content of protein`, `milk drink easy to prepare`, `creaminess and aroma comparable to cow's milk`],
         part4: `APPLICATIONS:`,
-        part5:[`liquid recombinant milk`, `condensed recombinant milk`, `ice cream`, `lunch concentrates`, `yogurt`, `chocolate drinks`, `coffee drinks`, `cappucino`]
+        part5: [`liquid recombinant milk`, `condensed recombinant milk`, `ice cream`, `lunch concentrates`, `yogurt`, `chocolate drinks`, `coffee drinks`, `cappucino`]
       },
       title: `Mokate`
     },
@@ -246,7 +246,7 @@ export const dataEng = {
       is a possibility of employment.`
     },
     contact: {
-      title: `Kontakt`
+      title: `Contact`
     }
   }
 }

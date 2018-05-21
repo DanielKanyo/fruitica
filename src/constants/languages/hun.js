@@ -210,7 +210,7 @@ export const dataHun = {
         part2: `FUNKCIONALITÁS:`,
         part3: [`különböző fehérjetartalmú tejcserélő`, `tejital könnyű előkészítés`, `a tehéntejhez hasonló krémesség és aroma`],
         part4: `ALKALMAZÁSA:`,
-        part5:[`folyékony rekombináns tej`, `kondenzált rekombináns tej`, `jégkrém`, `ebéd koncentrátumok`, `joghurt`, `csokoládéitalok`, `kávéitalok`, `cappuccino`]
+        part5: [`folyékony rekombináns tej`, `kondenzált rekombináns tej`, `jégkrém`, `ebéd koncentrátumok`, `joghurt`, `csokoládéitalok`, `kávéitalok`, `cappuccino`]
       },
       title: `Mokate`
     },
@@ -245,7 +245,7 @@ export const dataHun = {
       hogy ezek a kiválóság és a fejlődés alapjai.`,
       part3: `Ha csatlakozni szeretne hozzánk, és úgy érzi, hogy tagja lehet csapatunknak, küldje el életrajzát
       a következő e-mail címre: `,
-      part4: `work@fruitica.info`,
+      part4: `zaposlenje@fruitica.info`,
       part5: `Figyelembe vesszük az Ön jelentkezését, érdeklődését és kívánságait, és kapcsolatba lépünk
       Önnel, ha megállapítjuk, hogy van lehetőség a foglalkoztatásra.`
     },
