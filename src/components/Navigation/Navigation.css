@@ -12,9 +12,13 @@
   text-decoration: none;
 }
 
-.Navigation .app-bar h1 {
-  font-size: 24px !important;
-  font-family: font70345 !important;
+.Navigation .app-bar .page-title-placeholder {
+  background-image: url("../../images/fruiticalogo.png");
+  background-position: left;
+  background-size: auto 140%;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 64px;
 }
 
 .language div {

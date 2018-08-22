@@ -115,7 +115,7 @@ class Navigation extends React.Component {
       <div className="Navigation">
         <AppBar
           className="app-bar"
-          title={<Link to={routes.HOME}><h1>Fruitica d.o.o</h1></Link>}
+          title={<Link to={routes.HOME}><div className="page-title-placeholder"></div></Link>}
           iconElementLeft={<IconButton className="hamb-icon"><NavigationMenu /></IconButton>}
           onLeftIconButtonClick={this.handleToggle}
           iconElementRight={<div className="language-select">
