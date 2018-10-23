@@ -6,3 +6,7 @@
 .Component {
   overflow-y: auto;
 }
+
+.tile-icon-bar {
+  display: none;
+}
