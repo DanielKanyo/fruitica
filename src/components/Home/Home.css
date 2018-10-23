@@ -1,0 +1,8 @@
+.image-grid-container {
+  width: 100%;
+  height: auto;
+}
+
+.Component {
+  overflow-y: auto;
+}
