@@ -219,10 +219,9 @@ const IMAGES =
     thumbnailWidth: 320,
     thumbnailHeight: 213,
   },
-
   {
-    src: "https://preview.ibb.co/c1m5RV/pexels-photo-185941.jpg",
-    thumbnail: "https://preview.ibb.co/c1m5RV/pexels-photo-185941.jpg",
+    src: "https://preview.ibb.co/kMgTfq/cow-pasture-animal-almabtrieb.jpg",
+    thumbnail: "https://preview.ibb.co/kMgTfq/cow-pasture-animal-almabtrieb.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 213,
   },
@@ -257,8 +256,8 @@ const IMAGES =
     thumbnailHeight: 213,
   },
   {
-    src: "https://preview.ibb.co/kMgTfq/cow-pasture-animal-almabtrieb.jpg",
-    thumbnail: "https://preview.ibb.co/kMgTfq/cow-pasture-animal-almabtrieb.jpg",
+    src: "https://preview.ibb.co/c1m5RV/pexels-photo-185941.jpg",
+    thumbnail: "https://preview.ibb.co/c1m5RV/pexels-photo-185941.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 213,
   },
